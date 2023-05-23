@@ -167,7 +167,7 @@ function Navbar({ bg_color, position }) {
 
               <div className="mx-auto">
                 <Link href={"/consultation"}  >
-                  <button className='text-base font-medium  px-3 py-3  mt-4 rounded-xl text-white bg-[rgb(19,157,255)]'>
+                  <button className='text-base font-medium  px-8 py-3  mt-4 rounded-xl text-white bg-[rgb(19,157,255)]'>
                     <p className="flex justify-center items-center gap-4">
                       Get Free Consultation
                     </p>
@@ -177,18 +177,17 @@ function Navbar({ bg_color, position }) {
 
               {navItems.map((item, index) => (
                 <Link href={item.Route} key={index} >
-                  <div className="w-full flex flex-col justify-center items-center px-4 py-1 ml-2">
+                  <div className="w-full flex flex-col justify-center items-center px-4 py-1 ">
                     <div className="w-full  flex justify-start items-start ">
                       <div key={index} className="cursor-pointer w-full flex justify-between items-center ">
                         <p>{item.Name}</p>
-                        {(index === 1) && <IoMdArrowDropdown size={30} />}
+                        {/* {(index === 1) && <IoMdArrowDropdown size={30} className="ml-6"/>} */}
                       </div>
                     </div>
                     {/* =====> sub items */}
                     <div className="w-full py-0">
                       {item.hasDropdown &&
-
-                        <div className="w-full flex gap-1 flex-col justify-start items-start pl-8 space-y-1 mt-6 text-base font-normal ">
+                        <div className="w-full flex gap-1 flex-col justify-start items-start pl-8 mt-6 text-base font-normal ">
                           {item.dropdownItems.map((item, index) => {
                             return <Link key={index} href="#">{item.name}</Link>
                           })}
