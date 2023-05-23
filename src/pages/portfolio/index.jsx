@@ -12,7 +12,7 @@ import InstagramPost from '../../../components/Portfolio/InstagramPost';
 function Portfolio() {
     return (
         <div className='w-full min-h-screen font-Inter text-white bg-white h-full'>
-            <div className="w-full  bg-[#121521]  h-[40vh] md:h-[55vh]">
+            <div className="w-full  bg-[#121521]  h-[16rem]  md:h-[20rem]">
                 <Navbar bg_color={"white"} />
                 <div className=' max-w-[1172px] mx-auto'>
                     <div className='flex justify-start items-center space-y-2 py-4  w-full mt-2 md:mt-12'>

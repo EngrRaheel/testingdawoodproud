@@ -13,7 +13,7 @@ function cutomerpage() {
         <>
            
             <div className='grid grid-cols-1 w-full min-h-screen font-Inter text-white bg-white h-full'>
-                <div className='w-full bg-[#121521]  h-[100%] md:h-[100%] '>
+                <div className='w-full bg-[#121521] h-[16rem]  md:h-[20rem] '>
                     <Navbar bg_color={"white"} position={"sticky"}/>
                     <div className=' max-w-[1172px] mx-auto mt-2'>
                         <div className='flex justify-start items-start space-y-2 py-4 ml-[8%] md:ml-[10%] lg:ml-[10%] mt-2 md:mt-6'>

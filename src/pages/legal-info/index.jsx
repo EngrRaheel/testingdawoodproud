@@ -33,7 +33,7 @@ function LegalInfo() {
 
     return (
         <div className='w-full min-h-screen font-Inter text-white bg-white h-full'>
-            <div className="w-full   bg-[#121521]  h-[40vh] md:h-[55vh]">
+            <div className="w-full   bg-[#121521]  h-[16rem]  md:h-[20rem]">
                 <Navbar bg_color={"white"} />
                 <div className=' max-w-[1172px] mx-auto'>
                     <div className='flex flex-col justify-center items-start  md:-space-y-8  py-4 ml-[8%] md:ml-[10%] lg:ml-[12%] max-w-3xl '>
