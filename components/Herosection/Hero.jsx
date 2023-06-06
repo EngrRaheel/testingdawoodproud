@@ -43,7 +43,7 @@ function Hero() {
                     <div className="flex flex-col sm:flex-row gap-4 sm:gap-1 justify-between items-center max-w-[768px] w-full px-4 mx-auto">
                         <div className="flex flex-col gap-2 ">
                             <div className='w-[200px] md:w-[250px] h-[100px] md:h-[130px] relative '>
-                                <Image src={"/Images/trustpilot.webp"} alt={'image for the truts pilot'} fill></Image>
+                                <Image src={"/Images/trustpilot.webp"} alt={'image for the truts pilot'} fill />
                             </div>
                             <div className="flex flex-col justify-center items-center">
                                 <p className='flex flex-col justify-center items-center text-white hover:text-[#00b67a] font-semibold text-base' >5.0 reviews on Trustpilot</p>

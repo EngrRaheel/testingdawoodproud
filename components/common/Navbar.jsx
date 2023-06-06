@@ -26,7 +26,7 @@ const navItems = [
   {
     id: 2,
     Name: "Services",
-    Route: "#Services",
+    Route: "/services",
     hasDropdown: true,
     selected: true,
 

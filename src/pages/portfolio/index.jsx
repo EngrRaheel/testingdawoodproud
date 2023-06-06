@@ -17,10 +17,7 @@ function Portfolio() {
                 <div className=' max-w-[1172px] mx-auto'>
                     <div className='flex justify-start items-center space-y-2 py-4  w-full mt-2 md:mt-12'>
                         <h1 className=' text-2xl md:text-5xl lg:text-5xl font-bold abdal_color ml-[8%] '>
-                            {/* Bringing your YouTube vision to life with <br /> creativity, <br />collaboration, <br />cutting-edge technology. */}
-                            {/* <span className='text-[#1ecce4]'>We Think big,</span> <br />
-                            <span className="text-[#ead941]">start small,</span> <br />
-                            <span className="text-white">and move fast</span> */}
+                           
                             We love our customers
                             <br />
                             <span>And we&#39;re flattered to <br /> know they love us!</span>
