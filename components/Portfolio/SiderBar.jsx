@@ -75,10 +75,12 @@ function SiderBar() {
                     <ul className="space-y-2 ">
                         {liItem.map((item, index) =>
                             <li key={index} className="w-full ">
-                                <a href={item.id}
-                                    className="p-1 text-sm font-medium text-gray-900 rounded-lg  ">
-                                    <span className="ml-3 hover:text-[#1d9bf0]">{item.name}</span>
-                                </a>
+                                <div>
+                                    <a href={item.id}
+                                        className="p-1 text-sm font-medium text-gray-900 rounded-lg  ">
+                                        <span className="ml-3 hover:text-[#1d9bf0]">{item.name}</span>
+                                    </a>
+                                </div>
                             </li>
                         )}
                     </ul>

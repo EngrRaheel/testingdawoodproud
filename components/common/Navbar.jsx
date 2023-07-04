@@ -33,34 +33,49 @@ const navItems = [
     dropdownItems: [
       {
         name: "YouTube Consultation",
-        path: "/consultation"
+        path: "/services/youtube-consultation"
       },
       {
         name: "YouTube SEO",
-        path: "/consultation"
+        path: "/services/youtube-seo"
+      },
+      {
+        name: "YouTube Content Creation",
+        path: "/services/youtube-video-production"
       },
       {
         name: "YouTube Keyword Research",
-        path: "/consultation"
+        path: "/services/youtube-keyword-research"
+      },
+      {
+        name: "YouTube Niche",
+        path: "/services/youtube-niche-with-low-competition"
       },
       {
         name: "YouTube Automation",
-        path: "/consultation"
+        path: "/services/youtube-automation"
       },
       {
-        name: "YouTube Monetization",
-        path: "/consultation"
+        name: "YouTube Channel Optimization",
+        path: "/services/youtube-channel-optimization"
       },
-      {
-        name: "YouTube Promotion / Ads",
-        path: "/consultation"
-      },
+      // {
+      //   name: "YouTube Promotion",
+      //   path: "/services/youtube-promotion"
+      // },
+      // {
+      //   name: "YouTube Advertising",
+      //   path: "/services/youtube-promotion"
+      // },
+      // {
+      //   name: "YouTube Monetization",
+      //   path: "/services/youtube-monetization"
+      // },
 
-
-      {
-        name: "YouTube Channel Managment",
-        path: "/consultation"
-      },
+      // {
+      //   name: "YouTube Channel Managment",
+      //   path: "/services/youtube-channel-managment"
+      // },
 
 
     ]

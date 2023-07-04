@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import Navbar from "../../../components/common/Navbar";
 import Footer from "../../../components/common/Footer";
+import Head from "next/head";
 import ServiceCards from "../../../components/Services Page Sections/ServiceCards";
 function ServicesPage() {
   return (

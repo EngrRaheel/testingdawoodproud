@@ -847,10 +847,15 @@ button[type="remove"]:hover {
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
   display: inline-block;
-  
 }
 @keyframes textclip {
   to {
     background-position: 200% center;
   }
 }
+
+/* services pages customs css for the individual pages */
+
+/* #yotube_keyword_research_process {
+  color: #0066b3;
+} */

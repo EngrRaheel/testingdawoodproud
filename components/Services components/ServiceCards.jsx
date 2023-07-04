@@ -23,7 +23,7 @@ function ServiceCards() {
 
             {/* rating of the gogle clietns review section */}
 
-            <ReviewSlider />
+            {/* <ReviewSlider /> */}
 
 
             {/* </div> */}
@@ -59,7 +59,7 @@ function ServiceCards() {
                 para={`Our expert strategies and optimization techniques are the secret sauce to skyrocketing your subscribers and engagement. Let${"'"}s unleash your channel${"'"}s full potential and dominate the online space!`}
                 btntext={"Let us Help you Grow"} bgColor={""} link={"/consultation"} images={"/Images/Services/Overall YouTube Channel Management.png"} />
 
-            <TrustPilotReview />
+            {/* <TrustPilotReview /> */}
 
         </div>
 
