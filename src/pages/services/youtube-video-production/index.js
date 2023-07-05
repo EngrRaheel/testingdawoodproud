@@ -92,8 +92,8 @@ function youtubeseo() {
                     <br />
                     <span>
                       At Dawood Proud, we understand the importance of having
-                      your videos rank high in YouTube's search results. With
-                      millions of videos uploaded every day, it's crucial to
+                      your videos rank high in YouTube&apos;s search results. With
+                      millions of videos uploaded every day, it&apos;s crucial to
                       have a strong presence and visibility to stand out from
                       the competition.
                     </span>
@@ -109,7 +109,7 @@ function youtubeseo() {
                     />
                   </div>
                   <h3 className="text-base md:text-lg lg:text-xl font-Inter font-medium p-1 -mb-8">
-                    Here's how our YouTube SEO experts can assist you:
+                    Here&apos;s how our YouTube SEO experts can assist you:
                   </h3>
                 </div>
 
@@ -138,7 +138,7 @@ function youtubeseo() {
                   <p className="text-sm sm:text-base">
                     We will optimize your video titles and descriptions based on
                     variations of the targeted keywords. This optimization
-                    technique not only helps improve your video's relevancy to
+                    technique not only helps improve your video&apos;s relevancy to
                     search queries but also increases the chances of attracting
                     clicks and views.
                   </p>
@@ -178,7 +178,7 @@ function youtubeseo() {
                     End Screen and Cards Integration
                   </h3>
                   <p className="text-sm sm:text-base">
-                    Our team will leverage the power of YouTube's end screen and
+                    Our team will leverage the power of YouTube&apos;s end screen and
                     cards feature to promote your other videos, playlists, or
                     even external links. By strategically placing end screens
                     and cards, we can drive more traffic to your content and
@@ -193,10 +193,10 @@ function youtubeseo() {
                   </h3>
                   <p className="text-sm sm:text-base">
                     Our YouTube SEO specialists are constantly monitoring the
-                    latest updates and changes to YouTube's algorithm. This
+                    latest updates and changes to YouTube&apos;s algorithm. This
                     allows us to adapt our strategies and techniques
                     accordingly, ensuring that your videos align with the
-                    platform's guidelines and take full advantage of any
+                    platform&apos;s guidelines and take full advantage of any
                     algorithmic changes.
                   </p>
 

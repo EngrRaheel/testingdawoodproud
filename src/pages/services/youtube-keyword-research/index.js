@@ -130,7 +130,7 @@ function youtubeseo() {
                   <p className="text-sm sm:text-base">
                     Our team of YouTube experts has extensive knowledge and
                     experience in keyword research specifically tailored for
-                    YouTube. We understand the platform's algorithm and can
+                    YouTube. We understand the platform&apos;s algorithm and can
                     identify keywords that have the potential to bring you
                     consistent views and engaged subscribers.
                   </p>
@@ -244,8 +244,8 @@ function youtubeseo() {
                   </p>
 
                   <p className="text-sm sm:text-base">
-                    Unlock the power of YouTube's search algorithm and increase
-                    your channel's visibility with our YouTube Keywords Research
+                    Unlock the power of YouTube&apos;s search algorithm and increase
+                    your channel&apos;s visibility with our YouTube Keywords Research
                     Services. Gain consistent views, attract engaged
                     subscribers, and grow your channel organically. Contact us
                     today to leverage low competition and high volume keywords

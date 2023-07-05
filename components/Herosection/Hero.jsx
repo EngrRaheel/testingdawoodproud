@@ -15,7 +15,7 @@ function Hero() {
             <Navbar bg_color={"bg-gradient-to-b from-[#121521] to-[#121521]/0"} position={'fixed'} />
 
             {/* hero section text and images div */}
-            <div className="grid grid-cols-1 md:grid-cols-[1.3fr_1fr] gap-8 !justify-between items-center mx-auto max-w-[1200px]">
+            <div className="grid grid-cols-1 md:grid-cols-[1.3fr_1fr] gap-8 !justify-between items-center mx-auto max-w-[1200px] min-h-[90vh]">
 
                 {/* -mt-[10vh] sm:-mt-[15vh] lg:mt-3 */}
                 <div className="h-full w-full  text-white text-center flex flex-col  items-center justify-center space-y-4 mx-auto ">
@@ -69,10 +69,50 @@ function Hero() {
                         </div>
                     </div> */}
                 </div>
-
                 <SignUp />
             </div>
+            <div className="grid grid-cols-2 justify-center items-center bg-blue/30 w-full h-full ">
+                <div className="relative h-[250px] w-[500px] mx-auto ">
+                    <Image src="/Images/herosection/heroImage.webp" fill alt="heroImage" className="object-contain" />
+                </div>
+                <div className="grid grid-cols-1 justify-center items-center space-y-2 my-4">
+                    <div className="flex flex-col justify-start items-center">
+                        <p className="text-white font-bold font-Inter tracking-widest text-[22px]">
+                            PUSH YOUR CHANNEL TO THE
+                        </p>
+                        <div className="relative h-[100px] w-[280px] -ml-24">
+                            <Image src="/Images/herosection/heroImage2.svg" fill alt="heroImage2" className="object-contain" />
+                        </div>
+                    </div>
+                    <div className="flex justify-center items-center max-w-sm mx-auto">
+                        <p className="text-left font-Inter text-[20px] text-white">
+                            Discover how to <span className="hero_bg ">grow your YouTube <br /> channel</span>  with our professional coaches.
+                        </p>
+                    </div>
+                    <div className="flex justify-center items-center gap-8">
+                        <div>
+                            <Link href={"/consultation"} className="text-xs">
+                                <button className='border border-solid border-[#f0f0f0] px-4 py-2 ml-2 rounded-full text-sm font-bold text-white  bg-blue/40  hover:bg-white hover:text-blue'>
+                                    Get Free Consultation
+                                </button>
+                            </Link>
+                        </div>
+                        <div>
+                            <Link href={"/consultation"} className="text-xs ">
+                                <button className=' px-4 py-2 ml-2 rounded-full text-sm font-bold text-white  bg-blue/40  hover:bg-white hover:text-blue'>
+                                    <div className="flex justify-center items-center gap-2">
+                                        <p>See all Services</p>
+                                        <svg fill="none" viewBox="0 0 20 21" width="20" class="css-orecyf"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.166 10.5h11.667M10 4.667l5.833 5.833L10 16.334"></path></svg>
+                                    </div>
 
+                                </button>
+                            </Link>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
         </div>
     );
 }

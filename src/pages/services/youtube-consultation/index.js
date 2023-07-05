@@ -86,7 +86,7 @@ function YoutubeConsutation() {
                   <h3 className="text-base md:text-lg p-2 lg:p-1 font-normal font-Inter mt-4">
                     Welcome to Dawood Proud, the hub of certified YouTube
                     consultants who are passionate about helping your YouTube
-                    channel thrive. Unlock your channel's true potential with
+                    channel thrive. Unlock your channel&apos;s true potential with
                     our expert guidance and tailored content strategies.
                   </h3>
                   <h3 className="text-base md:text-lg lg:text-xl font-Inter font-medium p-1">
@@ -115,7 +115,7 @@ function YoutubeConsutation() {
                   <p className="text-sm sm:text-base">
                     Take advantage of our complimentary YouTube consultation
                     with experienced experts. Gain valuable insights and
-                    personalized strategies to accelerate your channel's growth.
+                    personalized strategies to accelerate your channel&apos;s growth.
                   </p>
 
                   <h2
@@ -127,7 +127,7 @@ function YoutubeConsutation() {
                   <p className="text-sm sm:text-base">
                     Every channel is unique, and we understand the importance of
                     customized approaches. Our consultants will develop a
-                    tailored content strategy to maximize your channel's
+                    tailored content strategy to maximize your channel&apos;s
                     success.
                   </p>
 
@@ -151,7 +151,7 @@ function YoutubeConsutation() {
                   </h2>
                   <p className="text-sm sm:text-base">
                     Build a loyal and engaged audience through our proven
-                    techniques. We'll help you identify your target audience,
+                    techniques. We&apos;ll help you identify your target audience,
                     optimize content to meet their interests, and foster strong
                     connections.
                   </p>
@@ -163,7 +163,7 @@ function YoutubeConsutation() {
                     YouTube Video SEO
                   </h3>
                   <p className="text-sm sm:text-base">
-                    Enhance your channel's visibility with effective search
+                    Enhance your channel&apos;s visibility with effective search
                     engine optimization techniques. Our consultants will
                     optimize titles, tags, descriptions, and metadata for better
                     discoverability.

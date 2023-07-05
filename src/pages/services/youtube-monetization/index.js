@@ -72,7 +72,7 @@ function YoutubeConsutation() {
             <div className="max-w-[1172px] mx-auto">
               <div className="flex flex-col justify-center items-start">
                 <h3 className="text-xl p-1 font-medium font-Inter mt-4">
-                  Boost Your YouTube Channel's Discoverability with YouTube
+                  Boost Your YouTube Channel&apos;s Discoverability with YouTube
                   Keyword Research Services
                 </h3>
                 {/* image comes here.. */}
@@ -97,8 +97,8 @@ function YoutubeConsutation() {
                     As a YouTube content creator or marketer, understanding the
                     significance of keyword research is crucial. By leveraging
                     relevant keywords, you can significantly improve your
-                    video's discoverability and visibility. Keywords play a
-                    pivotal role in YouTube's algorithm, determining the ranking
+                    video&apos;s discoverability and visibility. Keywords play a
+                    pivotal role in YouTube&apos;s algorithm, determining the ranking
                     and exposure of your videos to potential viewers.
                   </p>
 
@@ -126,7 +126,7 @@ function YoutubeConsutation() {
                   </h2>
                   <p className="text-base">
                     When you choose our YouTube Keyword Research Services, you
-                    unlock several benefits that can elevate your channel's
+                    unlock several benefits that can elevate your channel&apos;s
                     growth and success. These benefits include increased
                     visibility and exposure for your videos, improved rankings
                     in YouTube search results, targeted audience engagement,
@@ -148,7 +148,7 @@ function YoutubeConsutation() {
                   <p className="text-base">
                     During the initial consultation, we take the time to
                     understand your specific goals and target audience. By
-                    grasping your channel's niche and content focus, we can
+                    grasping your channel&apos;s niche and content focus, we can
                     tailor our keyword research to align with your objectives.
                     You can also avail a free consultation to discuss your
                     requirements and explore how our services can benefit your
@@ -176,7 +176,7 @@ function YoutubeConsutation() {
                     Ready to take your YouTube channel to new heights? Contact
                     us today to schedule your free consultation and discover how
                     our YouTube Keyword Research Services can boost your
-                    channel's discoverability and growth. Let's unlock the power
+                    channel&apos;s discoverability and growth. Let&apos;s unlock the power
                     of optimized keywords together!
                   </p>
                 </div>

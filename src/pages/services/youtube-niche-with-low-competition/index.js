@@ -162,7 +162,7 @@ function youtubeseo() {
                     Top Faceless YouTube Niches
                   </h2>
                   <p className="text-sm sm:text-base">
-                    Explore niches that don't require showing your face. Cater
+                    Explore niches that don&apos;t require showing your face. Cater
                     to different preferences and create engaging content while
                     maintaining privacy or exploring alternative styles.
                   </p>
@@ -170,7 +170,7 @@ function youtubeseo() {
                   <p>
                     At DawoodProud, we specialize in helping you find the
                     perfect YouTube niches with low competition that resonate
-                    with your target audience. Maximize your channel's potential
+                    with your target audience. Maximize your channel&apos;s potential
                     with our expertise in YouTube automation and in-depth
                     research techniques.
                   </p>

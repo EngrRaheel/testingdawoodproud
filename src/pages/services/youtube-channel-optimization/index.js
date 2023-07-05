@@ -122,7 +122,7 @@ function youtubeseo() {
                   </h2>
                   <p className="text-sm sm:text-base list-disc px-2">
                     Our specialized techniques and strategies are designed to
-                    boost your channel's visibility in search results and
+                    boost your channel&apos;s visibility in search results and
                     recommendations, ensuring that your content reaches a wider
                     audience.
                   </p>
@@ -135,7 +135,7 @@ function youtubeseo() {
                   </h2>
                   <p className="text-sm sm:text-base list-disc px-2">
                     We utilize proven optimization strategies to improve your
-                    channel's rankings, making it easier for viewers to find and
+                    channel&apos;s rankings, making it easier for viewers to find and
                     engage with your content.
                   </p>
 
@@ -176,7 +176,7 @@ function youtubeseo() {
                     aspects, including keyword research, metadata optimization,
                     thumbnail optimization, content strategy, and audience
                     engagement. We leave no stone unturned to ensure your
-                    channel's success.
+                    channel&apos;s success.
                   </p>
                   <h2
                     id="proven_results"
@@ -202,7 +202,7 @@ function youtubeseo() {
                   <br />
                   <p className="text-sm sm:text-base list-disc px-2">
                     Remember, success on YouTube is within reach. Let Dawood
-                    Proud's YouTube Channel Optimization Service help you unlock
+                    Proud&apos;s YouTube Channel Optimization Service help you unlock
                     its full potential.
                   </p>
                 </div>
