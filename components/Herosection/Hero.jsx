@@ -98,7 +98,7 @@ function Hero() {
                             </Link>
                         </div>
                         <div>
-                            <Link href={"/consultation"} className="text-xs ">
+                            <Link href={"/services"} className="text-xs ">
                                 <button className=' px-4 py-2 ml-2 rounded-full text-sm font-bold text-white  bg-blue/40  hover:bg-white hover:text-blue'>
                                     <div className="flex justify-center items-center gap-2">
                                         <p>See all Services</p>
@@ -109,8 +109,6 @@ function Hero() {
                             </Link>
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </div>
