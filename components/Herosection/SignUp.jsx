@@ -71,7 +71,7 @@ const SignupForm = () => {
             </button>
             <div className='text-white font-Inter text-[14px] text-center'>
                 <p>
-                    By signing up, I agree to DawoodProud's
+                    By signing up, I agree to DawoodProud&apos;s
                 </p>
                 <p>
                     <span className='underline'> <Link href={"/legal-info"}>Terms of Service</Link></span> and <span className='underline'>
