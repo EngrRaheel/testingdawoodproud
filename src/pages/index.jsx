@@ -12,7 +12,8 @@ import Footer from "../../components/common/Footer";
 
 const Home = () => {
   return (
-    <div className=" bg-cover bg-center  bg-[url('/Images/main-bg1.jpg')] ">
+    <div className=" bg-[white] ">
+      {/* [url('/Images/main-bg1.jpg')] */}
       <Hero />
 
       <YtSlider />

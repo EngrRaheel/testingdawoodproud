@@ -11,11 +11,11 @@ function ServicesPage() {
         <meta name="description" content="This is a description of my page." />
       </Head>
       <div className="w-full min-h-screen font-Inter text-white bg-white h-full">
-        <div className="w-full  bg-[#121521]  h-[16rem]  md:h-[22rem] ">
+        <div className="w-full  bg-[#001b47]  h-[16rem]  md:h-[22rem] ">
           <Navbar bg_color={"white"} />
           <div className=" max-w-[1172px] mx-auto">
             <div className="flex justify-start items-center space-y-2 py-4  w-full mt-2 md:mt-12">
-              <h1 className=" text-2xl md:text-5xl lg:text-5xl font-bold abdal_color ml-[8%] ">
+              <h1 className=" text-2xl md:text-5xl lg:text-5xl font-bold  ml-[8%] ">
                 We love our customers
                 <br />
                 <span>
@@ -26,10 +26,9 @@ function ServicesPage() {
           </div>
         </div>
 
-        <div className=" bg-[#121521] w-full bg-cover bg-center bg-[url('/Images/blob_bg_2.png')">
+        <div className="  w-full ">
           <ServiceCards />
         </div>
-
         <div>
           <Footer />
         </div>

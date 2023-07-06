@@ -9,7 +9,7 @@ import { AiOutlineLinkedin } from "react-icons/ai";
 
 function Footer() {
     return (
-        <div className='w-full  text-white bg-[#121521] text-base overflow-x-hidden font-Inter'>
+        <div className='w-full  text-white bg-[#001b47] text-base overflow-x-hidden font-Inter'>
             {/* parent div */}
             <div className="page-section-container max-w-[1172px] px-6 md:px-4 md:mx-auto pt-24 md:pt-24 pb-10 grid grid-cols-1 md:grid-cols-12">
                 <div className="col-span-full mb-7 md:mb-8">
@@ -31,20 +31,20 @@ function Footer() {
                 <div className="col-span-full md:col-span-6 mt-8 md:mt-0 text-md">
                     <div className="flex flex-col md:flex-row w-full space-y-7 md:space-y-0 space-x-0 md:space-x-2 lg:space-x-10 md:pl-10">
                         <div>
-                            <div className="mb-4 sm:mb-3 font-bold">
+                            <div className="mb-4 sm:mb-3 font-bold text-[#01b88d]">
                                 Company
                             </div>
-                            <div className="flex flex-col items-start space-y-3  text-white text-opacity-60">
+                            <div className="flex flex-col items-start space-y-3  text-white text-opacity-90">
                                 <Link href={"/our-channels"}>Our Channels </Link>
                                 <Link href={"/portfolio"}>Portfolio</Link>
                                 <Link href={"/blog"}>Blog</Link>
                             </div>
                         </div>
                         <div>
-                            <div className="mb-4 sm:mb-3 font-bold">
+                            <div className="mb-4 sm:mb-3 font-bold text-[#01b88d]">
                                Services
                             </div>
-                            <div className="flex flex-col items-start space-y-3 text-white text-opacity-60">
+                            <div className="flex flex-col items-start space-y-3 text-white text-opacity-90">
                                 <Link href={"/consultation"} >YouTube Consultation</Link>
                                 <Link href={"/consultation"} >YouTube SEO</Link>
                                 <Link href={"/consultation"} >YouTube Keyword Research</Link>
@@ -55,10 +55,10 @@ function Footer() {
                             </div>
                         </div>
                         <div>
-                            <div className="mb-4 sm:mb-3 font-bold">
+                            <div className="mb-4 sm:mb-3 font-bold text-[#01b88d] ">
                                 Other
                             </div>
-                            <div className="flex flex-col items-start space-y-3 text-white text-opacity-60">
+                            <div className="flex flex-col items-start space-y-3 text-white text-opacity-90 ">
                                 <Link href="/contact-us">Contact
                                 </Link>
                                 <Link href="/jobs">Jobs
@@ -78,10 +78,10 @@ function Footer() {
                     </div>
                 </div>
                 <div className="col-span-full md:col-span-3 text-md mt-8 md:mt-0">
-                    <div className="font-bold mb-2 md:mb-3">
+                    <div className="font-bold mb-2 md:mb-3 text-[#01b88d]">
                         Connect with us
                     </div>
-                    <div className="leading-5 text-white text-opacity-60">
+                    <div className="leading-5 text-white text-opacity-90">
                         Call Sales +92 327 007 5555
                     </div>
                     <div className="mt-4 flex items-center space-x-4">

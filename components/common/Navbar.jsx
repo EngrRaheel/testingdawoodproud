@@ -145,7 +145,7 @@ function Navbar({ bg_color, position }) {
             </Link>
           ))}
           <Link href={"/consultation"} className="text-xs">
-            <button className='flex flex-col justify-center items-center px-4 py-2 ml-2 rounded-xl text-sm font-bold text-white bg-[#139dff] hover:bg-[#3b82f6] '>
+            <button className='flex flex-col justify-center items-center px-4 py-2 ml-2 rounded-xl text-sm font-bold text-white bg-[#0077cc] hover:bg-[#3b82f6] '>
               <div className="flex justify-center items-center">
                 <p>Get Free Consultation</p>
               </div>
