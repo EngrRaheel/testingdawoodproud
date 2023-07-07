@@ -124,9 +124,8 @@ const YtSlider = () => {
   return (
     <div className="w-full min-h-screen ">
       <div className=" flex flex-col items-center justify-center gap-4 bg_slider relative w-full ">
-        <h2 className='text-white font-Inter text-shadow-light text-[16px] tracking-[.2em] font-bold mt-3 md:mt-6 px-10 text-center'>TRUSTED BY LEADING CREATORS</h2>
-        <div className='w-full h-full flex justify-center items-center relative'>
-
+        <h2 className='text-[#01b88d] font-Inter text-shadow-light text-[16px] tracking-[.2em] font-bold mt-3 md:mt-6 px-10 text-center'>TRUSTED BY LEADING CREATORS</h2>
+        <div className='w-full h-full flex justify-center items-center relative max-w-[1500px]'>
           <Swiper
             speed={2000}
             autoplay={{

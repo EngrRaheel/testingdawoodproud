@@ -15,7 +15,7 @@ function Hero() {
             <Navbar bg_color={"bg-gradient-to-b from-[#121521] to-[#121521]/0"} position={'fixed'} />
 
             {/* hero section text and images div */}
-            <div className="grid grid-cols-1  xl:grid-cols-12  justify-center !items-center mx-auto max-w-[1200px] min-h-[90vh] ">
+            <div className="grid grid-cols-1  xl:grid-cols-12  justify-center items-center mx-auto max-w-[1200px] min-h-[90vh] w-full">
 
                 <div className="h-full w-full  text-white text-center flex flex-col  items-center justify-center  xl:col-start-1 xl:col-span-5">
                     {/* hero section text */}
@@ -68,12 +68,15 @@ function Hero() {
                         </div>
                     </div> */}
                 </div>
-                <div className=" xl:col-start-8 xl:col-span-5 mx-auto w-full flex flex-col items-center">
+
+                {/* hero sign up starts here */}
+                <div className=" xl:col-start-8 xl:col-span-7 mx-auto w-full flex flex-col items-center">
                     <SignUp />
                 </div>
-
             </div>
-            <div className="grid grid-cols-1 xl:grid-cols-2 justify-center items-center bg-blue/5 w-full h-full ">
+
+            {/* last section of the herosection */}
+            <div className="grid grid-cols-1 xl:grid-cols-2 justify-center items-center bg-blue/5 w-full h-full mb-8 xl:mb-12 max-w-7xl">
                 <div className="relative h-[250px] w-[300px] xs:w-[400px] sm:w-[500px] mx-auto ">
                     <Image src="/Images/herosection/heroImage.webp" fill alt="heroImage" className="object-contain" />
                 </div>

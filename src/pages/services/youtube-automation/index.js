@@ -57,11 +57,29 @@ function youtubeseo() {
         <meta property="og:image" content="" />
       </Head>
 
-      <div className="w-full flex flex-col justify-center items-center h-full font-Inter">
-        <div className="w-full  bg-[#121521] ">
+      <div className="w-full flex flex-col justify-center items-center h-full font-Inter bg-[#001b47]">
+        <div className="w-full   ">
           <Navbar bg_color={"white"} position={"sticky"} />
         </div>
-
+        <div className="grid grid-cols-1  xl:grid-cols-12  justify-center items-center mx-auto max-w-[1200px]  w-full min-h-[50%] gap-8">
+          <div className=" text-white xl:col-start-1 xl:col-span-6 flex flex-col items-center justify-center text-center xl:text-left mt-8 xl:mt-1">
+            <h1 className=" text-2xl md:text-4xl xl:text-5xl font-bold ">
+              We love our customers
+              <br />
+              <span className="text-[#01b88d]">
+                And we&#39;re flattered to <br /> know they love us!
+              </span>
+            </h1>
+          </div>
+          <div className="w-[90%] h-[150px] md:h-[200px] xl:h-[300px] relative xl:col-start-8 xl:col-span-4 ">
+            <Image
+              src="/Images/ServicesheroImg.svg"
+              fill
+              alt="ServicesheroImg"
+              className="object-contain"
+            ></Image>
+          </div>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-12  bg-white w-full">
           {/* sidebar here  */}
           <div className=" mx-[4%] col-span-3 mt-6">
@@ -222,7 +240,7 @@ function youtubeseo() {
             <div className="max-w-[1172px] mx-auto"></div>
           </div>
         </div>
-        <div>
+        <div className="w-full">
           <Footer />
         </div>
       </div>

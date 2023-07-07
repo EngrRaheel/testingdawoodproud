@@ -9,7 +9,7 @@ import Link from 'next/link'
 const SliderItem = ({ url, name, subs, views, para, link, navtoportfolio }) => {
     return (
         <div className='w-full'>
-            <div className='flex flex-col justify-center items-center mx-auto font-Inter text-white rounded-2xl p-[12px] sm:p-2 md:p-3 max-w-[22.1875rem] min-h-[498px] bg_testimonials'>
+            <div className='flex flex-col justify-center items-center mx-auto font-Inter text-white rounded-2xl p-[12px] sm:p-2 md:p-3 max-w-[355px] min-h-[498px] bg_testimonials'>
                 {/* bg_testimonials */}
                 {/* first group of three items */}
                 <div className='flex flex-col items-center space-y-3'>
