@@ -120,7 +120,7 @@ function Navbar({ bg_color, position }) {
 
   return (
     <div className={`w-full min-h-[4.1rem]  font-Inter font-bold ${position} top-0 z-10 ${bg_color} `}>
-      <div className="mx-w-[1172px] mx-auto min-h-full flex items-center text-[#FFFFFF] justify-between lg:justify-around  ">
+      <div className="mx-w-[1172px] mx-auto min-h-full flex items-center text-blue justify-between lg:justify-around  ">
         {/* Logo here... */}
         <div className="relative w-12 h-14 ">
           <Link href={'/'} alt='home'> <Image src={"/Images/logo.png"} alt="" fill className="object-contain" /></Link>

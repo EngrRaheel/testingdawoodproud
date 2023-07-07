@@ -63,16 +63,16 @@ function YoutubeConsutation() {
       </Head>
 
       <div className="w-full flex flex-col justify-center items-center h-full font-Barlow bg-[#001b47]">
-        <div className="w-full  ">
+        <div className="w-full bg-white ">
           <Navbar bg_color={"white"} position={"sticky"} />
         </div>
         <div className="flex flex-col justify-center items-start mt-8 -space-y-8">
           <div className="text-[#01b88d]">
             {/* Channels <span className="text-white">/</span> YouTube Videos */}
           </div>
-          <div className="grid grid-cols-1  xl:grid-cols-12  justify-center items-center mx-auto max-w-[1200px]  w-full min-h-[300px] gap-8 ">
+          <div className="grid grid-cols-1  xl:grid-cols-12  justify-center items-center mx-auto max-w-[700px]  w-full min-h-[300px] gap-4 ">
             <div className=" text-white xl:col-start-1 xl:col-span-6 flex flex-col items-center justify-center text-center xl:text-left mt-8 xl:mt-1">
-              <h1 className=" text-[24px] md:text-[24px] xl:text-[40px] font-bold xl:leading-[45px]">
+              <h1 className=" text-[24px] md:text-[24px] xl:text-[24px] font-bold xl:leading-[35px]">
                 {/* We love our customers */}
                 Certified YouTube Consulting
                 <br />
@@ -81,9 +81,9 @@ function YoutubeConsutation() {
                 </span>
               </h1>
             </div>
-            <div className="w-[100%] h-[150px] md:h-[180px] xl:h-[200px] relative xl:col-start-8 xl:col-span-4 mb-4">
+            <div className="w-[100%] h-[150px] md:h-[180px] xl:h-[150px] relative xl:col-start-8 xl:col-span-4 mb-4">
               <Image
-                src="/Images/youtubue_consultant.svg"
+                src="/Images/ServicesheroImg.svg"
                 fill
                 alt="ServicesheroImg"
                 className="object-contain"
@@ -99,7 +99,7 @@ function YoutubeConsutation() {
               <SideBar liItem={liItem} sectionIds={sectionIds} />
             </div>
           </div>
-          <div className="w-full mx-auto bg-white min-h-screen col-span-7 ">
+          <div className="w-full mx-auto bg-white min-h-screen col-span-6 ">
             <div className="mx-auto w-[100%]  mt-5 p-2">
               {/* <h1 className="  font-black text-xl sm:text-2xl md:text-3xl lg:text-4xl mt-12">
                 Certified YouTube Consulting | Get Free Content Strategy &
