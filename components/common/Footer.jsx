@@ -9,10 +9,10 @@ import { AiOutlineLinkedin } from "react-icons/ai";
 
 function Footer() {
     return (
-        <div className='w-full  text-white bg-[#001b47] text-base overflow-x-hidden font-Inter min-h-screen'>
+        <div className='w-full  text-white bg-[#001b47] text-base  font-Inter'>
             {/* parent div */}
             <div className='w-full flex flex-col justify-center items-center '>
-                <div className="page-section-container max-w-[1172px] px-6 md:px-4 md:mx-auto pt-24 md:pt-24 pb-10 grid grid-cols-1 md:grid-cols-12">
+                <div className="page-section-container max-w-[1280px] px-6 md:px-4 md:mx-auto pt-24 md:pt-24 pb-10 grid grid-cols-1 md:grid-cols-12">
                     <div className="col-span-full mb-7 md:mb-8">
                         <div className='relative h-14 w-14 flex items-center justify-center rounded-full shadow-xl'>
                             <Image src={'/Images/logo.png'} alt='logbimg' fill className='object-contain' />
@@ -99,8 +99,8 @@ function Footer() {
 
 
                 </div>
-                <hr className='w-full max-w-6xl text-[gray] h-full' />
-                <div className="grid grid-col-1 xl:grid-cols-12 justify-center items-center w-full my-4 mx-4 max-w-6xl space-y-6 mb-16">
+                <hr className='w-full max-w-7xl text-[gray] h-full' />
+                <div className="grid grid-col-1 xl:grid-cols-12 justify-center items-center w-full mt-4 mx-4 max-w-7xl mb-8">
                     <div className='xl:col-span-7 font-Inter text-[14px] text-center xl:text-left'>
                         <p>
                             <strong>Dawood Proud®</strong> 2019-2023 | Celelberating 4+ Years of YouTube Marketing Excellence
@@ -112,10 +112,10 @@ function Footer() {
                     </div>
                     <div className='xl:col-start-8  xl:col-span-5 flex justify-between items-center'>
 
-                        <div className='w-[20%] h-20 relative'>
+                        <div className='w-[20%] h-16 relative'>
                             <Image src={"/Images/googlepremierbadge2023.jpg"} fill alt="logo" className='object-contain' />
                         </div>
-                        <div className='w-[20%] h-20 relative'>
+                        <div className='w-[20%] h-16 relative'>
                             <Image src={"/Images/Microsoft-Elite-Channel-Partner-2022.png"} fill alt="logo" className='object-contain' />
                         </div>
                         <div className='w-[50%] h-16 relative'>

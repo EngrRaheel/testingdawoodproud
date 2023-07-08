@@ -8,7 +8,7 @@ import ChannelPage from '../../../components/Our Channels/ChannelsPage';
 function OurChannels() {
     return (
         <div className="w-full min-h-screen grid grid-cols-1 font-Inter">
-            <Navbar bg_color={"bg-blue"} position={'fixed'} />
+            <Navbar bg_color={"bg-white"} position={'fixed'} />
             <div className='grid  grid-cols-1 md:grid-cols-12  mt-6 bg-white'>
                 <div className=' mx-[4%] col-span-3 mt-6'>
                     <div className='sticky top-12'>

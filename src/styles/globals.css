@@ -897,8 +897,8 @@ button[type="remove"]:hover {
 /* .superchargeYT_bg {
   overflow: hidden;
   position: relative;
-}
-
+} */
+/* 
 @media (min-width: 1200px) and (max-width: 1800px) {
   .superchargeYT_bg::before {
     background: #f2f8ff;
@@ -964,5 +964,43 @@ button[type="remove"]:hover {
   color: #f2f8ff;
 } */
 
-.superchargeYT_bg {
+/* .curved-section {
+  background-color: white;
+  padding: 50px;
+  position: relative;
+  border-radius: 50% 50% 0 0 / 20% 20% 0 0;
+  text-align: center;
+} */
+
+.hsds-row--oval-bottom {
+  overflow: hidden;
+  padding-bottom: 128px;
+  position: relative;
 }
+@media (min-width: 900px) and (max-width: 1400px) {
+  .hsds-row--oval-bottom::after {
+    background: #ffffff;
+    border-radius: 60%;
+    top: -100px;
+    content: "";
+    display: block;
+    height: 200px;
+    position: absolute;
+    left: -15%;
+    width: 130%;
+  }
+}
+@media (min-width: 300px)  {
+  .hsds-row--oval-bottom::after {
+    background: #ffffff;
+    border-radius: 60%;
+    top: -100px;
+    content: "";
+    display: block;
+    height: 200px;
+    position: absolute;
+    left:-45%;
+    width: 190%;
+  }
+}
+

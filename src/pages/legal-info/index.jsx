@@ -2,7 +2,7 @@ import React from 'react'
 import Footer from "../../../components/common/Footer"
 import Navbar from "../../../components/common/Navbar"
 import Tab from "../../../components/Careers/CareersTab"
-
+import Image from 'next/image'
 
 function LegalInfo() {
 
@@ -33,26 +33,32 @@ function LegalInfo() {
 
     return (
         <div className='w-full min-h-screen font-Inter text-white bg-white h-full'>
-            <div className="w-full   bg-[#121521]  h-[16rem]  md:h-[20rem]">
+            <div className="w-full bg-white">
                 <Navbar bg_color={"white"} />
-                <div className=' max-w-[1172px] mx-auto'>
-                    <div className='flex flex-col justify-center items-start  md:-space-y-8  py-4 ml-[8%] md:ml-[10%] lg:ml-[12%] max-w-3xl '>
-                        <h2 className=' text-[30px] md:text-[65px] lg:text-[65px] font-bold font-inter text-[#1ecce4] abdal_color text-center'>
-                            Legal Information 
-                        </h2>
-                        <h2 className=' text-[30px] md:text-[65px] lg:text-[60px] font-bold font-inter text-[#1ecce4] abdal_color '>
-                        &
-                        </h2>
-                        <h2 className=' text-[30px] md:text-[65px] lg:text-[65px] font-bold font-inter text-[#1ecce4] abdal_color'>
-                            Data Protection Policy
-                        </h2>
-                    </div>
-                </div>
             </div>
 
+            <div className="grid grid-cols-1  md:grid-cols-12  justify-center items-center mx-auto max-w-full  w-full min-h-[400px]  bg-[#001b47]">
+                <div className=" text-white md:col-start-3 md:col-span-5 flex flex-col items-center justify-center text-center md:text-left mt-8 xl:mt-1">
+                    <h1 className='text-[24px] md:text-[32px] lg:text-[36px] xl:text-[48px] font-bold xl:leading-[60px] font-Factor_A max-w-3xl '>
+                        <span className="text-[#01b88d]">  Legal Information </span>
 
-            <div className='flex flex-col justify-center items-start max-w-[1172px] space-y-10 mb-8 mx-auto'>
-                <div className='ml-[4%] md:ml-[10%] lg:ml-[11%] mx-auto'>
+                        <br />Data Protection Policy
+
+
+
+                    </h1>
+                </div>
+                <div className="w-[100%] h-[150px] md:h-[200px] lg:h-[250px] relative md:col-start-9 md:col-span-2 mb-4">
+                    <Image
+                        src="/Images/ServicesheroSVGs/youtube-niche-with-low-competition.svg"
+                        fill
+                        alt="youtube-niche-with-low-competition"
+                        className="object-contain"
+                    ></Image>
+                </div>
+            </div>
+            <div className='w-full flex flex-col justify-center items-start max-w-[1172px] space-y-10  mx-auto mb-24'>
+                <div className='ml-[4%] md:ml-[8%] lg:ml-[8%] '>
                     <Tab tabs={tabs} />
                 </div>
 

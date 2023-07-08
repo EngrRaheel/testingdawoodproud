@@ -19,17 +19,25 @@ function Portfolio() {
                 <meta name="description" content="This is a description of my page." />
             </Head>
 
-            <div className="w-full  bg-[#121521]  h-[16rem]  md:h-[20rem]">
-                <Navbar bg_color={"white"} />
-                <div className=' max-w-[1172px] mx-auto'>
-                    <div className='flex justify-start items-center space-y-2 py-4  w-full mt-2 md:mt-12'>
-                        <h1 className=' text-2xl md:text-5xl lg:text-5xl font-bold abdal_color ml-[8%] '>
 
-                            We love our customers
-                            <br />
-                            <span>And we&#39;re flattered to <br /> know they love us!</span>
-                        </h1>
-                    </div>
+            <div className='w-full bg-white'>
+                <Navbar bg_color={"white"} position={"sticky"} />
+            </div>
+
+            <div className="grid grid-cols-1  md:grid-cols-12  justify-center items-center mx-auto max-w-full  w-full min-h-[400px]  bg-[#001b47]">
+                <div className=" text-white md:col-start-3 md:col-span-5 flex flex-col items-center justify-center text-center md:text-left mt-8 xl:mt-1">
+                    <h1 className='text-[24px] md:text-[32px] lg:text-[36px] xl:text-[48px] font-bold xl:leading-[60px] font-Factor_A max-w-xl '>
+                        <span className="text-[#01b88d]"> We love our customers </span>
+                        And we&#39;re flattered to know they love us!
+                    </h1>
+                </div>
+                <div className="w-[100%] h-[150px] md:h-[200px] lg:h-[250px] relative md:col-start-9 md:col-span-2 mb-4">
+                    <Image
+                        src="/Images/ServicesheroSVGs/youtube-niche-with-low-competition.svg"
+                        fill
+                        alt="youtube-niche-with-low-competition"
+                        className="object-contain"
+                    ></Image>
                 </div>
             </div>
 

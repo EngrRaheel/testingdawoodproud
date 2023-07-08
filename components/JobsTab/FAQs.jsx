@@ -3,7 +3,7 @@ import React from 'react'
 function FAQs() {
     return (
 
-        <div className='w-full max-w-[1172px]'>
+        <div className='w-full max-w-[1172px] font-Factor_A'>
             <div class=" mx-auto px-5 bg-white min-h-sceen">
                 <div class="flex flex-col items-center">
                     <h2 class="font-bold text-5xl mt-5 ">
