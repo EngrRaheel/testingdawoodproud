@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 
 function SiderBar({ liItem, sectionIds }) {
- 
+
 
   useEffect(() => {
-    // Add scroll event listener to the window
+    
     window.addEventListener('scroll', handleScroll);
 
-    // Remove the scroll event listener when the component unmounts
+   
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
@@ -15,7 +15,7 @@ function SiderBar({ liItem, sectionIds }) {
 
   function handleScroll() {
     const scrollPosition = window.scrollY + 20;
-    
+
     const currentSectionIds = sectionIds.filter((id) => {
       const element = document.getElementById(id);
       return element && element.offsetTop <= scrollPosition;
@@ -30,19 +30,20 @@ function SiderBar({ liItem, sectionIds }) {
   }
 
   return (
-    <div className="max-w-xl mx-auto text-blue font-Inter">
+    <div className="max-w-xl mx-auto text-blue font-Inter border-r-2 border-[gray]/60 ">
       <aside className="w-full" aria-label="Sidebar">
         <div className="px-3 py-4 overflow-y-auto  mt-8 text-left">
-          <h2 className="p-2 text-base font-bold ml-4">Content</h2>
+          <h2 className="p-2 text-lg font-bold ">Content</h2>
           <ul className="space-y-2 py-4 ">
             {liItem.map((item, index) => (
               <li key={index} className="w-full">
-                <a href={`#${item.id}`} className="p-1 text-sm font-medium text-gray-900  text-[14px]">
-                  <span className="hover:text-[#01b88d] ">{item.name}</span>
+                <a href={`#${item.id}`} className="p-1 font-normal text-[14px]">
+                  <span className="hover:text-[#0070f3] ">{item.name}</span>
                 </a>
               </li>
             ))}
           </ul>
+
         </div>
       </aside>
     </div>

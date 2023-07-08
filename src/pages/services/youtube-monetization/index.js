@@ -51,13 +51,13 @@ function YoutubeConsutation() {
         />
         <meta property="og:image" content="path/to/og/image" />
       </Head>
-      <div className="w-full flex flex-col justify-center items-center h-full font-Inter bg-[#001b47]">
-        <div className="w-full ">
+      <div className="w-full flex flex-col justify-center items-center h-full font-Halvic bg-[#001b47]">
+        <div className="w-full bg-white">
           <Navbar bg_color={"white"} position={"sticky"} />
         </div>
-        <div className="grid grid-cols-1  xl:grid-cols-12  justify-center items-center mx-auto max-w-[1200px]  w-full min-h-[50%] gap-8">
-          <div className=" text-white xl:col-start-1 xl:col-span-6 flex flex-col items-center justify-center text-center xl:text-left mt-8 xl:mt-1">
-            <h1 className=" text-2xl md:text-4xl xl:text-5xl font-bold ">
+        <div className="grid grid-cols-1  md:grid-cols-12  justify-center items-center mx-auto max-w-full  w-full min-h-[400px]  ">
+          <div className=" text-white md:col-start-4 md:col-span-5 flex flex-col items-center justify-center text-center md:text-left mt-8 xl:mt-1">
+            <h1 className="text-[24px] md:text-[32px] lg:text-[36px] xl:text-[48px] font-bold xl:leading-[60px] font-Factor_A max-w-3xl ">
               We love our customers
               <br />
               <span className="text-[#01b88d]">
@@ -65,23 +65,23 @@ function YoutubeConsutation() {
               </span>
             </h1>
           </div>
-          <div className="w-[90%] h-[150px] md:h-[200px] xl:h-[300px] relative xl:col-start-8 xl:col-span-4 ">
+          <div className="w-[100%] h-[150px] md:h-[200px] lg:h-[250px] relative md:col-start-9 md:col-span-2 mb-4">
             <Image
-              src="/Images/ServicesheroImg.svg"
+              src="/Images/ServicesheroSVGs/Youtube_consultation.svg"
               fill
               alt="ServicesheroImg"
               className="object-contain"
             ></Image>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-12  bg-white w-full">
+        <div className="grid grid-cols-1 md:grid-cols-12  bg-white  mx-auto max-w-full  w-full ">
           {/* sidebar here  */}
-          <div className=" mx-[4%] col-span-3 mt-6">
-            <div className="sticky top-12 shadow-md rounded-xl">
+          <div className="mx-5   md:col-span-3 mt-6 ">
+            <div className="sticky top-12 ">
               <SideBar liItem={liItem} sectionIds={sectionIds} />
             </div>
           </div>
-          <div className="w-full mx-auto bg-white min-h-screen col-span-7 ">
+          <div className="w-full mx-auto bg-white min-h-screen md:col-start-4 md:col-span-7 p-2">
             <div className="mx-auto w-[100%]  mt-5">
               <h1 className="font-Inter font-black text-5xl mt-12">
                 YouTube Monetization Services
@@ -107,7 +107,7 @@ function YoutubeConsutation() {
                 <div className="space-y-4 mt-8 p-3">
                   <h2
                     id="why_youtube_research_matters"
-                    className="text-2xl font-semibold"
+                    className="text-xl md:text-2xl font-bold font-Factor_A"
                   >
                     Why YouTube Keyword Research Matters
                   </h2>
@@ -122,7 +122,7 @@ function YoutubeConsutation() {
 
                   <h2
                     id="our_approach_to_keyword_research"
-                    className="text-2xl font-semibold"
+                    className="text-xl md:text-2xl font-bold font-Factor_A"
                   >
                     Our Approach to YouTube Keyword Research
                   </h2>
@@ -138,7 +138,7 @@ function YoutubeConsutation() {
 
                   <h2
                     id="benefit_of_keyword_research"
-                    className="text-2xl font-semibold"
+                    className="text-xl md:text-2xl font-bold font-Factor_A"
                   >
                     Benefits of Our YouTube Keyword Research Services
                   </h2>
@@ -152,7 +152,7 @@ function YoutubeConsutation() {
                     trending topics and popular search queries.
                   </p>
 
-                  <h2 id="how_process_works" className="text-2xl font-semibold">
+                  <h2 id="how_process_works" className="text-xl md:text-2xl font-bold font-Factor_A">
                     How Our Process Works
                   </h2>
                   <p className="text-base">
@@ -186,7 +186,7 @@ function YoutubeConsutation() {
 
                   <h2
                     id="get_started_with_keyword_research"
-                    className="text-2xl font-semibold"
+                    className="text-xl md:text-2xl font-bold font-Factor_A"
                   >
                     Get Started with YouTube Keyword Research
                   </h2>

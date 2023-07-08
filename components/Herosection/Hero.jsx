@@ -12,7 +12,10 @@ function Hero() {
     return (
 
         <div className="w-full min-h-screen flex flex-col items-center justify-center font-Inter mx-auto bg-[#001b47]">
-            <Navbar bg_color={"bg-gradient-to-b from-[#121521] to-[#121521]/0"} position={'fixed'} />
+            <div className="w-full bg-white ">
+                <Navbar bg_color={"white"} position={"sticky"} />
+            </div>
+            {/* bg-gradient-to-b from-[#121521] to-[#121521]/0        */}
 
             {/* hero section text and images div */}
             <div className="grid grid-cols-1  xl:grid-cols-12  justify-center items-center mx-auto max-w-[1200px] min-h-[90vh] w-full">

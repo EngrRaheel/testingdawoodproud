@@ -61,46 +61,43 @@ function youtubeseo() {
         <meta property="og:image" content="" />
       </Head>
 
-      <div className="w-full flex flex-col justify-center items-center h-full font-Inter bg-[#001b47]">
-        <div className="w-full  ">
+      <div className="w-full flex flex-col justify-center items-center h-full font-Halvic bg-[#001b47]">
+        <div className="w-full bg-white ">
           <Navbar bg_color={"white"} position={"sticky"} />
         </div>
-        <div className="grid grid-cols-1  xl:grid-cols-12  justify-center items-center mx-auto max-w-[1200px]  w-full min-h-[50%] gap-8">
-          <div className=" text-white xl:col-start-1 xl:col-span-6 flex flex-col items-center justify-center text-center xl:text-left mt-8 xl:mt-1">
-            <h1 className=" text-2xl md:text-4xl xl:text-5xl font-bold ">
-              We love our customers
-              <br />
-              <span className="text-[#01b88d]">
-                And we&#39;re flattered to <br /> know they love us!
-              </span>
+        <div className="grid grid-cols-1  md:grid-cols-12  justify-center items-center mx-auto max-w-full  w-full min-h-[400px]  ">
+          <div className=" text-white md:col-start-4 md:col-span-5 flex flex-col items-center justify-center text-center md:text-left mt-8 xl:mt-1">
+            <h1 className="text-[24px] md:text-[32px] lg:text-[36px] xl:text-[48px] font-bold xl:leading-[60px] font-Factor_A max-w-3xl ">
+              <span className="text-[#01b88d]">YouTube Video Creation </span>
+              Services to Maximize Your YouTube Success
             </h1>
           </div>
-          <div className="w-[90%] h-[150px] md:h-[200px] xl:h-[300px] relative xl:col-start-8 xl:col-span-4 ">
+          <div className="w-[100%] h-[150px] md:h-[200px] lg:h-[250px] relative md:col-start-9 md:col-span-2 mb-4">
             <Image
-              src="/Images/ServicesheroImg.svg"
+              src="/Images/ServicesheroSVGs/Youtube_VideoCreatoin.svg"
               fill
-              alt="ServicesheroImg"
+              alt="Youtube_VideoCreatoin"
               className="object-contain"
             ></Image>
           </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-12  bg-white w-full">
           {/* sidebar here  */}
-          <div className=" mx-[4%] col-span-3 mt-6">
-            <div className="sticky top-12 shadow-md rounded-xl">
+          <div className="mx-5   md:col-span-3 mt-6 ">
+            <div className="sticky top-12 ">
               <SideBar liItem={liItem} sectionIds={sectionIds} />
             </div>
           </div>
-          <div className="w-full mx-auto bg-white min-h-screen col-span-7 ">
-            <div className="mx-auto w-[100%]  mt-5 p-2">
-              <h1 className="font-Inter font-black text-xl sm:text-2xl md:text-3xl lg:text-4xl mt-12">
+          <div className="w-full mx-auto bg-white min-h-screen md:col-start-4 md:col-span-7 p-2">
+            <div className="max-w-[1172px] mx-auto">
+              {/* <h1 className="font-Inter font-black text-xl sm:text-2xl md:text-3xl lg:text-4xl mt-12">
                 YouTube Video Creation Services to Maximize Your YouTube Success
-              </h1>
+              </h1> */}
             </div>
             <div className="max-w-[1172px] mx-auto">
               <div className="flex flex-col justify-center items-start">
                 <div className="flex flex-col justify-center item-center gap-4 mb-3">
-                  <h3 className="text-base md:text-lg p-2 lg:p-1 font-normal font-Inter mt-4">
+                  <h3 className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter">
                     Are you looking to skyrocket your YouTube video rankings and
                     attract a consistent flow of views and engaged subscribers?
                     Look no further! Our team of YouTube SEO experts is here to
@@ -110,10 +107,10 @@ function youtubeseo() {
                     <br />
                     <span>
                       At Dawood Proud, we understand the importance of having
-                      your videos rank high in YouTube&apos;s search results. With
-                      millions of videos uploaded every day, it&apos;s crucial to
-                      have a strong presence and visibility to stand out from
-                      the competition.
+                      your videos rank high in YouTube&apos;s search results.
+                      With millions of videos uploaded every day, it&apos;s
+                      crucial to have a strong presence and visibility to stand
+                      out from the competition.
                     </span>
                   </h3>
 
@@ -126,7 +123,7 @@ function youtubeseo() {
                       className="object-contain"
                     />
                   </div>
-                  <h3 className="text-base md:text-lg lg:text-xl font-Inter font-medium p-1 -mb-8">
+                  <h3 className="text-[24px] md:text-[36px] xl:text-[42px] font-bold font-Factor_A">
                     Here&apos;s how our YouTube SEO experts can assist you:
                   </h3>
                 </div>
@@ -135,11 +132,11 @@ function youtubeseo() {
                 <div className="space-y-4 my-16 p-3 ">
                   <h2
                     id="youtube_keyword_research"
-                    className="text-xl md:text-2xl font-semibold"
+                    className="text-xl md:text-2xl font-bold font-Factor_A"
                   >
                     YouTube Keyword Research
                   </h2>
-                  <p className="text-sm sm:text-base">
+                  <p className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter">
                     Our skilled team will conduct in-depth keyword research
                     using our DP Web Crawlers. By identifying the most relevant,
                     high volume, low competition and high-performing keywords in
@@ -149,25 +146,25 @@ function youtubeseo() {
 
                   <h2
                     id="optimized_title_description_optimization"
-                    className="text-xl md:text-2xl font-semibold"
+                    className="text-xl md:text-2xl font-bold font-Factor_A"
                   >
                     Optimized Title and Description Optimization
                   </h2>
-                  <p className="text-sm sm:text-base">
+                  <p className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter">
                     We will optimize your video titles and descriptions based on
                     variations of the targeted keywords. This optimization
-                    technique not only helps improve your video&apos;s relevancy to
-                    search queries but also increases the chances of attracting
-                    clicks and views.
+                    technique not only helps improve your video&apos;s relevancy
+                    to search queries but also increases the chances of
+                    attracting clicks and views.
                   </p>
 
                   <h2
                     id="high_volume_tags_hashtags"
-                    className="text-xl md:text-2xl font-semibold"
+                    className="text-xl md:text-2xl font-bold font-Factor_A"
                   >
                     High-Volume Tags and Hashtags
                   </h2>
-                  <p className="text-sm sm:text-base">
+                  <p className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter">
                     Our YouTube SEO Experts will carefully select and add
                     high-volume tags and hashtags to your videos. These tags and
                     hashtags will enhance the discoverability of your content
@@ -177,11 +174,11 @@ function youtubeseo() {
 
                   <h2
                     id="internal_linking_youtube_videos"
-                    className="text-xl md:text-2xl font-semibold"
+                    className="text-xl md:text-2xl font-bold font-Factor_A"
                   >
                     Internal Linking of YouTube Videos
                   </h2>
-                  <p className="text-sm sm:text-base">
+                  <p className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter">
                     We will implement effective internal linking strategies
                     within your YouTube channel. By interconnecting your videos,
                     we can boost the overall visibility of your content and
@@ -191,25 +188,25 @@ function youtubeseo() {
 
                   <h3
                     id="end_screen_cards_integration"
-                    className="text-xl md:text-2xl font-semibold"
+                    className="text-xl md:text-2xl font-bold font-Factor_A"
                   >
                     End Screen and Cards Integration
                   </h3>
-                  <p className="text-sm sm:text-base">
-                    Our team will leverage the power of YouTube&apos;s end screen and
-                    cards feature to promote your other videos, playlists, or
-                    even external links. By strategically placing end screens
-                    and cards, we can drive more traffic to your content and
-                    keep viewers engaged within your channel.
+                  <p className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter">
+                    Our team will leverage the power of YouTube&apos;s end
+                    screen and cards feature to promote your other videos,
+                    playlists, or even external links. By strategically placing
+                    end screens and cards, we can drive more traffic to your
+                    content and keep viewers engaged within your channel.
                   </p>
 
                   <h3
                     id="staying_updated_youtube_algorithm"
-                    className="text-xl md:text-2xl font-semibold"
+                    className="text-xl md:text-2xl font-bold font-Factor_A"
                   >
                     Staying Updated with YouTube Algorithm
                   </h3>
-                  <p className="text-sm sm:text-base">
+                  <p className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter">
                     Our YouTube SEO specialists are constantly monitoring the
                     latest updates and changes to YouTube&apos;s algorithm. This
                     allows us to adapt our strategies and techniques
@@ -218,7 +215,7 @@ function youtubeseo() {
                     algorithmic changes.
                   </p>
 
-                  <p className="text-sm sm:text-base">
+                  <p className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter">
                     With our comprehensive YouTube SEO services, you can expect
                     to see significant improvements in your video rankings,
                     organic traffic, and subscriber engagement. Let us help you

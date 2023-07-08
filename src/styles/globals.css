@@ -352,7 +352,8 @@ background: radial-gradient(to top, #1A2948, #030713); */
 /* portfolio page */
 
 .active {
-  background-color: #0203060f;
+  background: #154bdf0f;
+  color: #0070f3;
 }
 
 /* call to action  */
@@ -589,7 +590,7 @@ background: radial-gradient(to top, #1A2948, #030713); */
 
 .tab-content {
   margin-top: 1rem;
-  font-size: 1.2rem;
+  font-size: 14px;
   line-height: 1.5;
 }
 

@@ -26,8 +26,6 @@ function youtubeseo() {
       name: "5. Top Faceless YouTube Niches",
       id: "top_faceless_youtube_niches",
     },
-
-    
   ];
 
   const sectionIds = [
@@ -35,9 +33,9 @@ function youtubeseo() {
     "high_volume",
     "rising_trend",
     "youtube_shorts_niches",
-    "top_faceless_youtube_niches"
+    "top_faceless_youtube_niches",
   ];
-  
+
   return (
     <div className="">
       <Head>
@@ -60,47 +58,44 @@ function youtubeseo() {
         <meta property="og:image" content="" />
       </Head>
 
-      <div className="w-full flex flex-col justify-center items-center h-full font-Inter bg-[#001b47]">
-        <div className="w-full ">
+      <div className="w-full flex flex-col justify-center items-center h-full font-Halvic bg-[#001b47]">
+        <div className="w-full bg-white ">
           <Navbar bg_color={"white"} position={"sticky"} />
         </div>
-        <div className="grid grid-cols-1  xl:grid-cols-12  justify-center items-center mx-auto max-w-[1200px]  w-full min-h-[50%] gap-8">
-          <div className=" text-white xl:col-start-1 xl:col-span-6 flex flex-col items-center justify-center text-center xl:text-left mt-8 xl:mt-1">
-            <h1 className=" text-2xl md:text-4xl xl:text-5xl font-bold ">
-              We love our customers
-              <br />
-              <span className="text-[#01b88d]">
-                And we&#39;re flattered to <br /> know they love us!
-              </span>
+        <div className="grid grid-cols-1  md:grid-cols-12  justify-center items-center mx-auto max-w-full  w-full min-h-[400px]  ">
+          <div className=" text-white md:col-start-4 md:col-span-5 flex flex-col items-center justify-center text-center md:text-left mt-8 xl:mt-1">
+            <h1 className="text-[24px] md:text-[32px] lg:text-[36px] xl:text-[48px] font-bold xl:leading-[60px] font-Factor_A max-w-3xl ">
+              <span className="text-[#01b88d]">YouTube Niches with Low </span>
+              Competition Services to Optimize for Your Target Audience
             </h1>
           </div>
-          <div className="w-[90%] h-[150px] md:h-[200px] xl:h-[300px] relative xl:col-start-8 xl:col-span-4 ">
+          <div className="w-[100%] h-[150px] md:h-[200px] lg:h-[250px] relative md:col-start-9 md:col-span-2 mb-4">
             <Image
-              src="/Images/ServicesheroImg.svg"
+              src="/Images/ServicesheroSVGs/youtube-niche-with-low-competition.svg"
               fill
-              alt="ServicesheroImg"
+              alt="youtube-niche-with-low-competition"
               className="object-contain"
             ></Image>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-12  bg-white w-full">
+        <div className="grid grid-cols-1 md:grid-cols-12  bg-white  mx-auto max-w-full  w-full ">
           {/* sidebar here  */}
-          <div className=" mx-[4%] col-span-3 mt-6">
-            <div className="sticky top-12 shadow-md rounded-xl">
+          <div className="mx-5   md:col-span-3 mt-6 ">
+            <div className="sticky top-12">
               <SideBar liItem={liItem} sectionIds={sectionIds} />
             </div>
           </div>
-          <div className="w-full mx-auto bg-white min-h-screen col-span-7 ">
-            <div className="mx-auto w-[100%]  mt-5 p-2">
-              <h1 className="font-Inter font-black text-xl sm:text-2xl md:text-3xl lg:text-4xl mt-12">
+          <div className="w-full mx-auto bg-white min-h-screen md:col-start-4 md:col-span-7 p-2">
+            <div className="max-w-[1172px] mx-auto">
+              {/* <h1 className="font-Inter font-black text-xl sm:text-2xl md:text-3xl lg:text-4xl mt-12">
                 YouTube Niches with Low Competition Services to Optimize for
                 Your Target Audience
-              </h1>
+              </h1> */}
             </div>
             <div className="max-w-[1172px] mx-auto">
               <div className="flex flex-col justify-center items-start">
                 <div className="flex flex-col justify-center item-center gap-4 ">
-                  <h3 className="text-base md:text-lg p-2 lg:p-1 font-normal font-Inter mt-4">
+                  <h3 className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter">
                     Discover YouTube niches with low competition and high volume
                     to optimize your channel for success. Our services
                     specialize in identifying profitable niches that perfectly
@@ -126,11 +121,11 @@ function youtubeseo() {
                 <div className="space-y-4 my-12 p-3 ">
                   <h2
                     id="low_competition"
-                    className="text-xl md:text-2xl font-semibold"
+                    className="text-xl md:text-2xl font-bold font-Factor_A"
                   >
                     Low Competition
                   </h2>
-                  <p className="text-sm sm:text-base">
+                  <p className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter">
                     Stand out in a crowded YouTube landscape by targeting niches
                     with low competition. Establish yourself as a go-to resource
                     in your field and attract an engaged audience.
@@ -138,11 +133,11 @@ function youtubeseo() {
 
                   <h2
                     id="high_volume"
-                    className="text-xl md:text-2xl font-semibold"
+                    className="text-xl md:text-2xl font-bold font-Factor_A"
                   >
                     High Volume
                   </h2>
-                  <p className="text-sm sm:text-base">
+                  <p className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter">
                     Tap into a larger audience potential by focusing on niches
                     with high search volume. Increase your views, subscribers,
                     and engagement by targeting topics people are actively
@@ -151,11 +146,11 @@ function youtubeseo() {
 
                   <h2
                     id="rising_trend"
-                    className="text-xl md:text-2xl font-semibold"
+                    className="text-xl md:text-2xl font-bold font-Factor_A"
                   >
                     Rising Trend
                   </h2>
-                  <p className="text-sm sm:text-base">
+                  <p className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter">
                     Stay ahead of the competition by identifying niches on the
                     rise. Capitalize on emerging trends and position yourself as
                     a trendsetter to attract a dedicated following.
@@ -163,11 +158,11 @@ function youtubeseo() {
 
                   <h2
                     id="youtube_shorts_niches"
-                    className="text-xl md:text-2xl font-semibold"
+                    className="text-xl md:text-2xl font-bold font-Factor_A"
                   >
                     YouTube Shorts Niches
                   </h2>
-                  <p className="text-sm sm:text-base">
+                  <p className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter">
                     Optimize your content for YouTube Shorts, a rapidly growing
                     feature. Find niches tailored for short-form videos to
                     maximize visibility and engagement.
@@ -175,22 +170,22 @@ function youtubeseo() {
 
                   <h2
                     id="top_faceless_youtube_niches"
-                    className="text-xl md:text-2xl font-semibold"
+                    className="text-xl md:text-2xl font-bold font-Factor_A"
                   >
                     Top Faceless YouTube Niches
                   </h2>
-                  <p className="text-sm sm:text-base">
-                    Explore niches that don&apos;t require showing your face. Cater
-                    to different preferences and create engaging content while
-                    maintaining privacy or exploring alternative styles.
+                  <p className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter">
+                    Explore niches that don&apos;t require showing your face.
+                    Cater to different preferences and create engaging content
+                    while maintaining privacy or exploring alternative styles.
                   </p>
                   <br />
                   <p>
                     At DawoodProud, we specialize in helping you find the
                     perfect YouTube niches with low competition that resonate
-                    with your target audience. Maximize your channel&apos;s potential
-                    with our expertise in YouTube automation and in-depth
-                    research techniques.
+                    with your target audience. Maximize your channel&apos;s
+                    potential with our expertise in YouTube automation and
+                    in-depth research techniques.
                   </p>
                 </div>
               </div>

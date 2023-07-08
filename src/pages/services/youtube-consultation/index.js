@@ -70,43 +70,37 @@ function YoutubeConsutation() {
           <div className="text-[#01b88d]">
             {/* Channels <span className="text-white">/</span> YouTube Videos */}
           </div>
-          <div className="grid grid-cols-1  xl:grid-cols-12  justify-center items-center mx-auto max-w-full  w-full min-h-[400px]  ">
-            <div className=" text-white xl:col-start-4 xl:col-span-5 flex flex-col items-center justify-center text-center xl:text-left mt-8 xl:mt-1">
-              <h1 className="text-[24px] md:text-[24px] xl:text-[34px] font-bold xl:leading-[48px]" >
+          <div className="grid grid-cols-1  md:grid-cols-12  justify-center items-center mx-auto max-w-full  w-full min-h-[400px]  ">
+            <div className=" text-white md:col-start-4 md:col-span-5 flex flex-col items-center justify-center text-center md:text-left mt-8 xl:mt-1">
+              <h1 className="text-[24px] md:text-[32px] lg:text-[36px] xl:text-[48px] font-bold xl:leading-[60px] font-Factor_A max-w-3xl">
                 {/* We love our customers */}
-                Certified YouTube Consulting 
-                <br />
+                Certified YouTube Consulting:{" "}
                 <span className="text-[#01b88d] ">
                   Get Free Content Strategy from YouTube Experts
                 </span>
                 {/* YouTube Keyword Research: How to Find Popular Search Terms */}
               </h1>
             </div>
-            <div className="w-[100%] h-[150px] md:h-[180px] xl:h-[180px] relative xl:col-start-9 xl:col-span-2 mb-4">
+            <div className="w-[100%] h-[150px] md:h-[200px] lg:h-[250px] relative md:col-start-9 md:col-span-2 mb-4">
               <Image
-                src="/Images/ServicesheroImg.svg"
+                src="/Images/ServicesheroSVGs/Youtube_consultation.svg"
                 fill
-                alt="ServicesheroImg"
+                alt="Youtube_consultation"
                 className="object-contain"
               ></Image>
             </div>
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-12  bg-white w-full">
+        <div className="grid grid-cols-1 md:grid-cols-12  bg-white  mx-auto max-w-full  w-full ">
           {/* sidebar here  */}
-          <div className="mx-5 col-start-[1.5]  col-span-3 mt-6">
+          <div className="mx-5   md:col-span-3 mt-6 ">
             <div className="sticky top-12 ">
               <SideBar liItem={liItem} sectionIds={sectionIds} />
             </div>
           </div>
-          <div className="w-full mx-auto bg-white min-h-screen col-span-6 ">
-            <div className="mx-auto w-[100%]  mt-5 p-2">
-              {/* <h1 className="  font-black text-xl sm:text-2xl md:text-3xl lg:text-4xl mt-12">
-                Certified YouTube Consulting | Get Free Content Strategy &
-                Consultation from YouTube Experts
-              </h1> */}
-            </div>
+          <div className="w-full mx-auto bg-white min-h-screen md:col-start-4 md:col-span-7 p-2">
+           
             <div className="max-w-[1172px] mx-auto">
               <div className="flex flex-col justify-center items-start">
                 <div className="flex flex-col justify-center item-center gap-4 mb-3">
@@ -116,7 +110,7 @@ function YoutubeConsutation() {
                     channel thrive. Unlock your channel&apos;s true potential
                     with our expert guidance and tailored content strategies.
                   </h3>
-                  <h3 className="text-[36px] font-bold font-Factor_A">
+                  <h3 className="text-[24px] md:text-[36px] xl:text-[42px] font-bold font-Factor_A">
                     Why Choose Our YouTube Consulting Services?
                   </h3>
                 </div>
@@ -197,7 +191,7 @@ function YoutubeConsutation() {
                     discoverability.
                   </p>
 
-                  <h3 className="text-[36px] font-bold font-Factor_A ">
+                  <h3 className="text-[24px] md:text-[36px] xl:text-[42px] font-bold font-Factor_A ">
                     Ready to Take Your YouTube Channel to New Heights?
                   </h3>
                   <p className="text-[16px] md:text-[20.4px] font-light leading-[32.4px] font-Inter">

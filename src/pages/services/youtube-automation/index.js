@@ -57,47 +57,46 @@ function youtubeseo() {
         <meta property="og:image" content="" />
       </Head>
 
-      <div className="w-full flex flex-col justify-center items-center h-full font-Inter bg-[#001b47]">
-        <div className="w-full   ">
+      <div className="w-full flex flex-col justify-center items-center h-full font-Halvic bg-[#001b47]">
+        <div className="w-full bg-white ">
           <Navbar bg_color={"white"} position={"sticky"} />
         </div>
-        <div className="grid grid-cols-1  xl:grid-cols-12  justify-center items-center mx-auto max-w-[1200px]  w-full min-h-[50%] gap-8">
-          <div className=" text-white xl:col-start-1 xl:col-span-6 flex flex-col items-center justify-center text-center xl:text-left mt-8 xl:mt-1">
-            <h1 className=" text-2xl md:text-4xl xl:text-5xl font-bold ">
-              We love our customers
-              <br />
+        <div className="grid grid-cols-1  md:grid-cols-12  justify-center items-center mx-auto max-w-full  w-full min-h-[400px]  ">
+          <div className=" text-white md:col-start-4 md:col-span-5 flex flex-col items-center justify-center text-center md:text-left mt-8 xl:mt-1">
+            <h1 className="text-[24px] md:text-[32px] lg:text-[36px] xl:text-[48px] font-bold xl:leading-[60px] font-Factor_A max-w-3xl ">
               <span className="text-[#01b88d]">
-                And we&#39;re flattered to <br /> know they love us!
+                YouTube Automation Done For You:{" "}
               </span>
+              Grow your YouTube Channel without Making Videos
             </h1>
           </div>
-          <div className="w-[90%] h-[150px] md:h-[200px] xl:h-[300px] relative xl:col-start-8 xl:col-span-4 ">
+          <div className="w-[100%] h-[150px] md:h-[200px] lg:h-[250px] relative md:col-start-9 md:col-span-2 mb-4">
             <Image
-              src="/Images/ServicesheroImg.svg"
+              src="/Images/ServicesheroSVGs/youtube-automation.svg"
               fill
-              alt="ServicesheroImg"
+              alt="youtube-automation"
               className="object-contain"
             ></Image>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-12  bg-white w-full">
+        <div className="grid grid-cols-1 md:grid-cols-12  bg-white  mx-auto max-w-full  w-full ">
           {/* sidebar here  */}
-          <div className=" mx-[4%] col-span-3 mt-6">
-            <div className="sticky top-12 shadow-md rounded-xl">
+          <div className="mx-5   md:col-span-3 mt-6 ">
+            <div className="sticky top-12 ">
               <SideBar liItem={liItem} sectionIds={sectionIds} />
             </div>
           </div>
-          <div className="w-full mx-auto bg-white min-h-screen col-span-7 ">
-            <div className="mx-auto w-[100%]  mt-5 p-2">
-              <h1 className="font-Inter font-black text-xl sm:text-2xl md:text-3xl lg:text-4xl mt-12">
+          <div className="w-full mx-auto bg-white min-h-screen md:col-start-4 md:col-span-7 p-2">
+            <div className="max-w-[1172px] mx-auto">
+              {/* <h1 className="font-Inter font-black text-xl sm:text-2xl md:text-3xl lg:text-4xl mt-12">
                 YouTube Automation Done For You: Grow your YouTube Channel
                 without Making Videos
-              </h1>
+              </h1> */}
             </div>
             <div className="max-w-[1172px] mx-auto">
               <div className="flex flex-col justify-center items-start">
                 <div className="flex flex-col justify-center item-center gap-4 ">
-                  <h3 className="text-base md:text-lg p-2 lg:p-1 font-normal font-Inter mt-4">
+                  <h3 className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter">
                     At Dawood Proud, we offer comprehensive YouTube Automation
                     Services designed to help you grow your channel without the
                     hassle of creating videos. Our expert team will handle all
@@ -127,10 +126,10 @@ function youtubeseo() {
                     />
                   </div>
                   <div className="flex flex-col justify-center items-start gap-12">
-                    <h3 className="text-base md:text-xl lg:text-2xl font-Inter font-semibold p-1 -mb-8">
+                    <h3 className="text-[24px] md:text-[36px] xl:text-[42px] font-bold font-Factor_A">
                       Our YouTube Automation Services
                     </h3>
-                    <p>
+                    <p className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px] ">
                       Discover the benefits of our comprehensive YouTube
                       Automation Services:
                     </p>
@@ -141,11 +140,11 @@ function youtubeseo() {
                 <div className="space-y-4 my-12 p-3 ">
                   <h2
                     id="effortless_channel_growth"
-                    className="text-xl md:text-2xl font-semibold"
+                    className="text-xl md:text-2xl font-bold font-Factor_A"
                   >
                     Effortless Channel Growth
                   </h2>
-                  <ul className="text-sm sm:text-base list-disc px-2">
+                  <ul className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter list-disc px-2">
                     <li>
                       Experience substantial channel growth without the hassle
                       of creating videos.
@@ -158,11 +157,11 @@ function youtubeseo() {
 
                   <h2
                     id="professional_expertise"
-                    className="text-xl md:text-2xl font-semibold"
+                    className="text-xl md:text-2xl font-bold font-Factor_A"
                   >
                     Professional Expertise
                   </h2>
-                  <ul className="text-sm sm:text-base list-disc px-2">
+                  <ul className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter list-disc px-2">
                     <li>
                       Benefit from our team of experts who are experienced in
                       YouTube automation.
@@ -175,11 +174,11 @@ function youtubeseo() {
 
                   <h2
                     id="time_saving_solution"
-                    className="text-xl md:text-2xl font-semibold"
+                    className="text-xl md:text-2xl font-bold font-Factor_A"
                   >
                     Time-Saving Solution
                   </h2>
-                  <ul className="text-sm sm:text-base list-disc px-2">
+                  <ul className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter list-disc px-2">
                     <li>
                       Save valuable time by outsourcing the time-consuming task
                       of video creation.
@@ -192,11 +191,11 @@ function youtubeseo() {
 
                   <h2
                     id="customized_approach"
-                    className="text-xl md:text-2xl font-semibold"
+                    className="text-xl md:text-2xl font-bold font-Factor_A"
                   >
                     Customized Approach
                   </h2>
-                  <ul className="text-sm sm:text-base list-disc px-2">
+                  <ul className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter list-disc px-2">
                     <li>
                       We tailor our services to meet your specific goals and
                       requirements.
@@ -210,11 +209,11 @@ function youtubeseo() {
 
                   <h2
                     id="increased_reach_engagement"
-                    className="text-xl md:text-2xl font-semibold"
+                    className="text-xl md:text-2xl font-bold font-Factor_A"
                   >
                     Increased Reach and Engagement
                   </h2>
-                  <ul className="text-sm sm:text-base list-disc px-2">
+                  <ul className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter list-disc px-2">
                     <li>
                       Attract a wider audience and increase your subscriber
                       base.
@@ -225,7 +224,7 @@ function youtubeseo() {
                     </li>
                   </ul>
                   <br />
-                  <h3 className="text-base md:text-xl lg:text-2xl font-Inter font-semibold p-1 -mb-8">
+                  <h3 className="text-[24px] md:text-[36px] xl:text-[42px] font-bold font-Factor_A">
                     Get Started with YouTube Automation Today!
                   </h3>
                   <p>
