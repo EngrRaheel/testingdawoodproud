@@ -81,9 +81,9 @@ function youtubeseo() {
           </div>
           <div className="w-[100%] h-[150px] md:h-[200px] lg:h-[250px] relative md:col-start-9 md:col-span-2 mb-4">
             <Image
-              src="/Images/ServicesheroSVGS/Youtube_SEO.svg"
+              src="/Images/ServicesheroSVGs/Youtube_SEO.svg"
               fill
-              alt="ServicesheroImg"
+              alt="Youtube_SEO"
               className="object-contain"
             ></Image>
           </div>
