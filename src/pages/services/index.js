@@ -9,8 +9,23 @@ function ServicesPage() {
   return (
     <Fragment>
       <Head>
-        <title>My Page Title</title>
-        <meta name="description" content="This is a description of my page." />
+        <title>
+        YouTube Growth Services From YouTube Experts
+        </title>
+        <meta
+          name="description"
+          content="Get Best YouTube Marketing Services from Dawood Proud, a Leading YouTube Growth Agency to Supercharge your YouTube Channel "
+        />
+        <meta
+          name="keywords"
+          content="YouTube Growth Services, YouTube Marketing Service"
+        />
+        <meta property="og:title" content="YouTube Consultation" />
+        <meta
+          property="og:description"
+          content="This is the YouTube Consultation page description."
+        />
+        <meta property="og:image" content="" />
       </Head>
       <div className="w-full flex flex-col justify-center items-center h-full font-Halvic bg-[#001b47]">
         <div className="w-full bg-white ">

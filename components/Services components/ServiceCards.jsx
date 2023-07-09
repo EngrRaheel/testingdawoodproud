@@ -20,10 +20,7 @@ function ServiceCards() {
                 para={`Get Your Videos Ranked on YouTube Search Results to drive consistent traffic and engaged subscribers. Optimize your videos with winning strategies to dominate the world${"'"}s second-largest search engine.`}
                 btntext={"Dominate YouTube Search Now"} bgColor={""} link={"/services/youtube-seo"} images={"/Images/Services/YouTube_SEO_service.png"} />
 
-            <ServiceCard heading={"YouTube Content Creation"}
-                heading2={"YouTube Video Creation Services to Maximize Your YouTube Success"}
-                para={`Reach your YouTube Goals with our Video Creation Services. Get high-quality, engaging faceless YouTube Content from leading YouTube Video Production Company.`}
-                btntext={"Elevate your YouTube Game"} bgColor={""} link={"/consultation"} images={"/Images/Services/YouTube Content Creation.png"} />
+          
             {/* rating of the gogle clietns review section */}
 
             {/* <ReviewSlider /> */}

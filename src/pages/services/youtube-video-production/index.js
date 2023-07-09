@@ -72,9 +72,9 @@ function youtubeseo() {
               Services to Maximize Your YouTube Success
             </h1>
           </div>
-          <div className="w-[100%] h-[150px] md:h-[200px] lg:h-[250px] relative md:col-start-9 md:col-span-2 mb-4">
+          <div className="w-[100%] h-[150px] md:h-[200px] lg:h-[230px] relative md:col-start-9 md:col-span-3 mb-4">
             <Image
-              src="/Images/ServicesheroSVGs/Youtube_VideoCreatoin.svg"
+              src="/Images/Services/YouTube Content Creation.png"
               fill
               alt="Youtube_VideoCreatoin"
               className="object-contain"

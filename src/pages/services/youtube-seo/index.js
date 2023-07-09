@@ -68,8 +68,8 @@ function youtubeseo() {
           <Navbar bg_color={"white"} position={"sticky"} />
         </div>
         <div className="grid grid-cols-1  md:grid-cols-12  justify-center items-center mx-auto max-w-full  w-full min-h-[400px] ">
-          <div className=" text-white md:col-start-4 md:col-span-5 flex flex-col items-center justify-center text-center md:text-left mt-8 xl:mt-1">
-            <h1 className=" text-[24px] md:text-[32px] lg:text-[36px] xl:text-[48px] font-bold xl:leading-[60px] font-Factor_A  max-w-2xl ">
+          <div className=" text-white md:col-start-4 md:col-span-5 flex flex-col items-center justify-center text-center md:text-left mt-8 ">
+            <h1 className=" text-[24px] md:text-[32px] lg:text-[36px] xl:text-[44px] font-bold xl:leading-[60px] font-Factor_A  max-w-2xl ">
               {/* We love our customers
               <br />
               <span className="text-[#01b88d]">
@@ -79,9 +79,9 @@ function youtubeseo() {
               to Rank your Videos at the Top of YouTube Search Results
             </h1>
           </div>
-          <div className="w-[100%] h-[150px] md:h-[200px] lg:h-[250px] relative md:col-start-9 md:col-span-2 mb-4">
+          <div className="w-[100%] h-[150px] md:h-[200px] lg:h-[250px] relative md:col-start-9 md:col-span-3 mb-4">
             <Image
-              src="/Images/ServicesheroSVGs/Youtube_SEO.svg"
+              src="/Images/Services/YouTube_SEO_service.png"
               fill
               alt="Youtube_SEO"
               className="object-contain"
@@ -124,14 +124,14 @@ function youtubeseo() {
                   </h3>
 
                   {/* image comes here.. */}
-                  <div className="relative h-[350px] w-[95%] md:w-[100%] bg-blue mx-auto">
+                  {/* <div className="relative h-[350px] w-[95%] md:w-[100%] bg-blue mx-auto">
                     <Image
                       src="/Images/Services/Keyword Research.png"
                       alt="YouTube Keyword Research"
                       fill
                       className="object-contain"
                     />
-                  </div>
+                  </div> */}
                   <h3 className="text-[24px] md:text-[36px] xl:text-[42px] font-bold font-Factor_A">
                     Why Choose Our YouTube Video Production Services:
                   </h3>
