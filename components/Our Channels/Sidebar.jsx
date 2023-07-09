@@ -64,15 +64,15 @@ function SiderBar() {
 
     return (
 
-        <div className="max-w-xl mx-auto text-blue">
+        <div className="max-w-lg mx-auto text-blue border-r-2 border-[gray]/60 ">
             <aside className="w-full" aria-label="Sidebar">
-                <div className="px-3 py-4 overflow-y-auto rounded-2xl shadow-sm mt-8 text-left">
+                <div className="px-3 py-4 overflow-y-auto  mt-8 text-left">
                     <h2 className='p-2 text-base font-bold ml-4'>Content</h2>
-                    <ul className="space-y-2 py-4 rounded-md">
+                    <ul className="space-y-2 py-4">
                         {liItem.map((item, index) =>
                             <li key={index} className="w-full ">
                                 <a href={item.id}
-                                    className="p-1 text-sm font-medium text-gray-900 rounded-lg  ">
+                                    className="font-Inter text-sm font-light">
                                     <span className="ml-3 hover:text-[#1d9bf0]">{item.name}</span>
                                 </a>
                             </li>

@@ -157,10 +157,21 @@ function Navbar({ bg_color, position }) {
 
         {/* Hamburgur */}
         <div className="lg:hidden ">
-          <Hamburger
-            toggled={isOpen} toggle={setIsOpen} color='#ffffff' size={25}>
+          <div className="flex justify-center items-center">
+            <div>
+              <Link href={"/consultation"}  >
+                <button className='text-sm font-medium  px-[12px] py-[10px]  rounded-xl text-white bg-[rgb(19,157,255)]'>
+                  <p className="flex justify-center items-center gap-4">
+                    Get Free Consultation
+                  </p>
+                </button>
+              </Link>
+            </div>
+            <Hamburger
+              toggled={isOpen} toggle={setIsOpen} color='#001b47' size={28}>
+            </Hamburger>
+          </div>
 
-          </Hamburger>
 
           <Drawer
             open={isOpen}
@@ -168,9 +179,9 @@ function Navbar({ bg_color, position }) {
             direction="left"
             className="drawer"
           >
-            <div className="w-full flex flex-col text-white font-Inter gap-6 justify-center items-start ">
+            <div className="w-full flex flex-col text-white font-Inter gap-6 justify-center items-start bg-[#001b47]">
               {/* =========>top bar */}
-              <div className="w-full flex justify-between items-center px-2 h-[70px] bg-gradient-to-b from-[#121521] to-[#121521]/0 ">
+              <div className="w-full flex justify-between items-center px-2 h-[100px] bg-gradient-to-b from-[#121521] to-[#121521]/0 ">
                 <Link href={'/'} alt='home'>
                   <div className="relative w-10 h-10 ">
                     <Image src={"/Images/logo.png"} alt="" fill className="object-contain" />

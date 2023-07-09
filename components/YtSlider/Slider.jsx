@@ -25,7 +25,7 @@ const YtSlider = () => {
       ),
       "url": "/Images/YouTubers/WatchMojo.jpg",
       "link": "Ashkan Karbasfrooshan",
-      "navtoportfolio": "/portfolio#Emil_Anton"
+      "navtoportfolio": "/portfolio##Ashkan_Karbasfrooshan"
     },
     {
       "name": "TechAlta",
@@ -40,7 +40,7 @@ const YtSlider = () => {
       ),
       "url": "/Images/YouTubers/techAltar.jpg",
       "link": "Marton Barcza",
-      "navtoportfolio": "/portfolio#Ashkan_Karbasfrooshan"
+      "navtoportfolio": "/portfolio"
     },
 
     {
@@ -56,7 +56,7 @@ const YtSlider = () => {
       ),
       "url": "/Images/YouTubers/alux.svg",
       "link": "Emil C. Anton",
-      "navtoportfolio": "/portfolio#Zach_Hsieh"
+      "navtoportfolio": "/portfolio#Emil_Anton"
     },
 
     {
@@ -72,7 +72,7 @@ const YtSlider = () => {
       ),
       "url": "/Images/YouTubers/autotrader.jpg",
       "link": "Ian Plummer",
-      "navtoportfolio": "/portfolio#Linus_Sebastian"
+      "navtoportfolio": "/portfolio#Ian_Plummer"
     },
     {
       "name": "EmmyMade",
@@ -102,7 +102,7 @@ const YtSlider = () => {
       ),
       "url": "/Images/YouTubers/zhcnight.jpg",
       "link": "Zach Hsieh",
-      "navtoportfolio": "/portfolio#Ian_Plummer"
+      "navtoportfolio": "/portfolio#Zach_Hsieh"
     },
     {
       "name": "Linus Tech Tips",
@@ -117,7 +117,7 @@ const YtSlider = () => {
       ),
       "url": "/Images/YouTubers/LinusTechTipsFace.webp",
       "link": "Linus Sebastian",
-      "navtoportfolio": "/portfolio#Marton_Barcza"
+      "navtoportfolio": "/portfolio#Linus_Sebastian"
     }
   ]
 
@@ -125,7 +125,7 @@ const YtSlider = () => {
     <div className="w-full min-h-screen ">
       <div className=" flex flex-col items-center justify-center gap-4 bg_slider relative w-full ">
         <h2 className='text-[#01b88d] font-Inter text-shadow-light text-[16px] tracking-[.2em] font-bold mt-3 md:mt-6 px-10 text-center'>TRUSTED BY LEADING CREATORS</h2>
-        <div className='w-full h-full flex justify-center items-center relative max-w-[2000px]'>
+        <div className='w-full h-full flex justify-center items-stretch  max-w-[2000px]'>
           <Swiper
             speed={2000}
             autoplay={{
@@ -137,7 +137,7 @@ const YtSlider = () => {
             // loop={true}
             modules={[Autoplay, Pagination]}
             slidesPerView={1}
-            spaceBetween={20}
+            spaceBetween={40}
 
             breakpoints={{
               480: {
@@ -162,7 +162,7 @@ const YtSlider = () => {
               },
               1200: {
                 slidesPerView: 3.8,
-                spaceBetween: 20,
+                spaceBetween: 30,
               },
 
             }}

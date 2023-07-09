@@ -45,6 +45,10 @@ function careers() {
     ]
     const jobsClosed = [
         {
+            "Job": "YouTube Growth Strategists",
+            "Location": "May 2023 • In-Office • G-11, Islamabad"
+        },
+        {
             "Job": "Multimedia Designers",
             "Location": "March 2023 • In-Office • G-11/2, Sachal Sarmast Road, Islamabad"
         },
@@ -161,7 +165,7 @@ function careers() {
                         <br />then do it better.
                     </h1>
                 </div>
-                <div className="w-[100%] h-[150px] md:h-[200px] lg:h-[250px] relative md:col-start-9 md:col-span-2 mb-4">
+                <div className="w-[100%] h-[150px] md:h-[200px] lg:h-[250px] relative md:col-start-8N md:col-span-3 mb-4">
                     <Image
                         src="/Images/ServicesheroSVGs/youtube-niche-with-low-competition.svg"
                         fill
@@ -236,6 +240,7 @@ function careers() {
                 <div className='mx-auto flex flex-col justify-start items-start gap-12   md:ml-[10%] lg:ml-[15%] max-w-[900px] p-3 '>
                     <h3 className='text-[black] text-[24px] sm:text-[32px] md:text-[44px] font-semibold'>Closed positions</h3>
                     <div className='grid grid-cols-1 md:grid-cols-2 text-[black] mx-auto gap-4 md:gap-8' >
+                        
                         {jobsClosed.map((data, index) => {
                             return (
                                 <div key={index} className='border-1 border-solid border-[black] flex flex-col gap-2 md:grid md:grid-cols-[2.2fr_1fr]  px-3 md:px-2 py-3 md:py-4 shadow-md '  >

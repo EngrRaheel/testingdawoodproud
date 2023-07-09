@@ -12,29 +12,27 @@ function ServicesPage() {
         <title>My Page Title</title>
         <meta name="description" content="This is a description of my page." />
       </Head>
-      <div className="min-h-screen">
-        <div className="w-full  flex flex-col items-center justify-center font-Inter mx-auto bg-[#001b47] min-h-[80vh]">
-          <Navbar bg_color={"white"} position={"fixed"} />
-
-          {/* services hersection is here  */}
-          <div className="grid grid-cols-1  xl:grid-cols-12  justify-center items-center mx-auto max-w-[1200px]  w-full min-h-[50%] gap-8">
-            <div className=" text-white xl:col-start-1 xl:col-span-6 flex flex-col items-center justify-center text-center xl:text-left mt-8 xl:mt-1">
-              <h1 className=" text-2xl md:text-4xl xl:text-5xl font-bold ">
-                We love our customers
-                <br />
-                <span className="text-[#01b88d]">
-                  And we&#39;re flattered to <br /> know they love us!
-                </span>
-              </h1>
-            </div>
-            <div className="w-[90%] h-[150px] md:h-[200px] xl:h-[300px] relative xl:col-start-8 xl:col-span-4 ">
-              <Image
-                src="/Images/ServicesheroImg.svg"
-                fill
-                alt="ServicesheroImg"
-                className="object-contain"
-              ></Image>
-            </div>
+      <div className="w-full flex flex-col justify-center items-center h-full font-Halvic bg-[#001b47]">
+        <div className="w-full bg-white ">
+          <Navbar bg_color={"white"} position={"sticky"} />
+        </div>
+        <div className="grid grid-cols-1  md:grid-cols-12  justify-center items-center mx-auto max-w-full  w-full min-h-[400px]  ">
+          <div className=" text-white md:col-start-2 md:col-span-5 flex flex-col items-center justify-center text-center md:text-left mt-8 xl:mt-1">
+            <h1 className="text-[24px] md:text-[32px] lg:text-[36px] xl:text-[48px] font-bold xl:leading-[60px] font-Factor_A max-w-3xl ">
+              We love our customers
+              <br />
+              <span className="text-[#01b88d]">
+                And we&#39;re flattered to <br /> know they love us!
+              </span>
+            </h1>
+          </div>
+          <div className="w-[100%] h-[150px] md:h-[200px] lg:h-[250px] relative md:col-start-9 md:col-span-2 mb-4">
+            <Image
+              src="/Images/ServicesheroSVGs/serviceshero.svg"
+              fill
+              alt="services"
+              className="object-contain"
+            ></Image>
           </div>
         </div>
 

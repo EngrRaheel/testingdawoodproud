@@ -6,9 +6,12 @@ import ContactCard from '../../../components/ContactUs/ContactCard';
 function ContactUs() {
     return (
         <>
-            <div className="w-full min-h-screen flex items-center justify-center flex-col bg-cover bg-center  bg-[url('/Images/ContactUs/contactus.jpg')]">
-                <Navbar bg_color={"bg-blue"} position={'fixed'} />
-                <div className="">
+            <div className="w-full flex flex-col justify-center items-center h-full bg-cover bg-center  bg-[url('/Images/ContactUs/contactus.jpg')]">
+                <div className="w-full bg-white ">
+                    <Navbar bg_color={"white"} position={"sticky"} />
+                </div>
+
+                <div className="min-h-screen flex items-center">
                     <ContactCard />
                 </div>
             </div>

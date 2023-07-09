@@ -15,7 +15,7 @@ function SuperchargeYT() {
                             <h2 className='text-[white]/70 text-[16px] md:text-[22px] lg:text-[24px] font-medium font-Inter px-4'>Stand Out from Crowd — Dawood Proud </h2>
                         </div>
 
-                        <button className='flex justify-center items-center px-5 py-3 rounded-full bg-[#001b47] hover:bg-[#001b47] text-white font-bold gap-2'>
+                        <button className='flex justify-center items-center px-5 py-3 rounded-2xl bg-[#001b47] hover:bg-[#001b47] text-white font-bold gap-2'>
                             <Link href={"/cutomerpage"}>Start a New Project</Link>
                             <svg fill="none" viewBox="0 0 20 21" width="20" className="css-orecyf">
                                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.166 10.5h11.667M10 4.667l5.833 5.833L10 16.334"></path>

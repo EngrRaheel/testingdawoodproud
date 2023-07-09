@@ -3,24 +3,44 @@ import Navbar from "../../../components/common/Navbar";
 import Footer from "../../../components/common/Footer";
 import SiderBar from '../../../components/Our Channels/Sidebar';
 import ChannelPage from '../../../components/Our Channels/ChannelsPage';
-
+import Image from 'next/image';
 
 function OurChannels() {
     return (
-        <div className="w-full min-h-screen grid grid-cols-1 font-Inter">
-            <Navbar bg_color={"bg-white"} position={'fixed'} />
+        <div className="w-full flex flex-col justify-center items-center h-full font-Halvic bg-[#001b47]">
+            <div className="w-full bg-white ">
+                <Navbar bg_color={"white"} position={"sticky"} />
+            </div>
+            <div className="grid grid-cols-1  md:grid-cols-12  justify-center items-center mx-auto max-w-full  w-full min-h-[400px]  ">
+                <div className=" text-white md:col-start-4 md:col-span-5 flex flex-col items-center justify-center text-center md:text-left mt-8 xl:mt-1">
+                    <h1 className="text-[24px] md:text-[32px] lg:text-[36px] xl:text-[48px] font-bold xl:leading-[60px] font-Factor_A max-w-xl ">
+                        <span className="text-[#01b88d]">
+                            From Zero to Hero: </span>
+                        Check Out Our Top-performing Faceless YouTube Channels
+
+                    </h1>
+                </div>
+                <div className="w-[100%] h-[150px] md:h-[200px] lg:h-[250px] relative md:col-start-9 md:col-span-2 mb-4">
+                    <Image
+                        src="/Images/ServicesheroSVGs/serviceshero.svg"
+                        fill
+                        alt="services"
+                        className="object-contain"
+                    ></Image>
+                </div>
+            </div>
             <div className='grid  grid-cols-1 md:grid-cols-12  mt-6 bg-white'>
-                <div className=' mx-[4%] col-span-3 mt-6'>
+                <div className='mx-5 col-span-3 mt-6'>
                     <div className='sticky top-12'>
                         <SiderBar />
                     </div>
                 </div>
-                <div className='col-span-7  my-20 '>
-                    <h1 className='px-3 text-4xl md:text-4xl lg:text-[38.2px] font-black text-[#222] mb-[2.5rem]'>
+                <div className='w-full mx-auto bg-white min-h-screen  md:col-start-4 md:col-span-7 p-2 my-14'>
+                    {/* <h1 className='px-3 text-4xl md:text-4xl lg:text-[38.2px] font-black text-[#222] mb-[2.5rem]'>
                         From Zero to Hero: <br />
                         Check Out Our Top-performing Faceless YouTube Channels
-                    </h1>
-                    <p className='px-2 text-[18px] leading-8 font-normal mb-[1rem] '>
+                    </h1> */}
+                    <p className='px-2 text-[18px] leading-8 font-normal mb-[1rem] font-Inter'>
                         Welcome to &quot;Our Channels&quot; page, where we showcase our expertise in YouTube growth strategies. We don&#39;t just talk the talk, we walk the walk. Our channels are the living proof of our ability to apply winning YouTube content strategies that help channels grow. As a wise person once said, &quot;Don&#39;t tell me, show me.&quot; And that&#39;s exactly what we&#39;re doing here.
                         <br />
                         <br />
@@ -35,8 +55,8 @@ function OurChannels() {
                     <div>
                         <ChannelPage />
                     </div>
-                    <div className='mt-20'>
-                        <p className='px-4 text-[16px] font-light mb-[3rem]'>
+                    <div className=''>
+                        <p className='px-2 text-[18px] leading-8 font-normal mb-[1rem] font-Inter'>
                             If you&#39;re interested in exploring our complete list of YouTube channels across various niches for promotional purposes, please don&#39;t hesitate to contact us at our official number.
                             We&#39;ll work with you to identify the most relevant channel for your needs and help you achieve your YouTube Growth goals.
                         </p>

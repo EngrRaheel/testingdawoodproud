@@ -22,8 +22,9 @@ function PorfolioPage() {
             ,
             "TweetComponent": (
                 <div>
-                    <a href="https://twitter.com/i/flow/signup" >
-                        <div class="whitespace-pre-line">
+
+                    <div class="whitespace-pre-line">
+                        <a href="https://publish.twitter.com/#" >
                             <TwitterTweet
                                 name="Alux.com"
                                 username="@aluxcom"
@@ -35,8 +36,9 @@ function PorfolioPage() {
                                 date="9:18 PM · Dec 15, 2022"
                                 likes="373"
                                 read="23" />
-                        </div>
-                    </a>
+                        </a>
+                    </div>
+
 
                 </div>
             ),
@@ -63,8 +65,9 @@ function PorfolioPage() {
             ,
             "TweetComponent": (
                 <div>
-                    <a href="https://twitter.com/i/flow/signup" >
-                        <div className='whitespace-pre-line'>
+                    <div className='whitespace-pre-line'>
+                        <a href="https://publish.twitter.com/#" >
+
                             <TwitterTweet
                                 name="Ashkan Karbasfrooshan"
                                 username="@ashkan"
@@ -76,8 +79,9 @@ function PorfolioPage() {
                                 likes="157"
                                 read="34"
                             />
-                        </div>
-                    </a>
+                        </a>
+                    </div>
+
                 </div>
             ),
             "para": (
@@ -106,7 +110,7 @@ function PorfolioPage() {
             ,
             "TweetComponent": (
                 <div>
-                    <a href='https://www.instagram.com/accounts/login/' target="_blank">
+                    <a href='/' target="_blank">
                         <InstagramPost
                             name="zhccrafts"
                             para={`Thanks to my incredible Content Ideas Guru Dawood, because of him, my art channel is now bursting with fresh and exciting video ideas that my subscribers love! With ${'@Dawoodproud'} and his team${"'"}s help, I${"'"}ve been able to take my content to the next level and provide my viewers with high-quality, engaging videos that keep them coming back for more. Their ability to understand my niche and provide me with unique and creative ideas has been invaluable. I${"'"}m so grateful for their expertise and support!`}
@@ -143,8 +147,9 @@ function PorfolioPage() {
             ,
             "TweetComponent": (
                 <div>
-                    <a href="https://twitter.com/i/flow/signup" >
-                        <div className='whitespace-pre-line'>
+
+                    <div className='whitespace-pre-line'>
+                        <a href="https://publish.twitter.com/#" >
                             <TwitterTweet
                                 name="Linus Tech Tips"
                                 username="@LinusTech"
@@ -156,8 +161,9 @@ function PorfolioPage() {
                                 likes="21.47K"
                                 read="234"
                             />
-                        </div>
-                    </a>
+                        </a>
+                    </div>
+
                 </div>
             ),
             "para": (
@@ -184,7 +190,7 @@ function PorfolioPage() {
             ,
             "TweetComponent": (
                 <div>
-                    <a href="https://twitter.com/i/flow/signup" >
+                    <a href="https://publish.twitter.com/#" >
                         <div className='whitespace-pre-line'>
                             <TwitterTweet
                                 name="emmymade"
@@ -226,7 +232,7 @@ function PorfolioPage() {
             ,
             "TweetComponent": (
                 <div>
-                    <a href='https://www.instagram.com/accounts/login/' target="_blank">
+                    <a href=' ' target="_blank">
                         <InstagramPost
                             name="autotraderuk"
                             para={`We chose @dawoodproud to help us increase sales and reach more customers. Their strategic video marketing engaged car buyers and sellers across the UK, leading to increased brand recognition and sales. Dawood${"'"}s team is professional, creative, and responsive, taking the time to understand our business and target audience. We highly recommend Dawood for their innovative and strategic approach that drives results.`}

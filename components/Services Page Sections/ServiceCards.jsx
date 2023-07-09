@@ -10,9 +10,6 @@ import Image from 'next/image';
 
 function ServiceCards() {
     function ServiceCard({ heading, heading2, para, btntext, bgColor, link, images }) {
-
-
-
         return (
             <div className={`w-full min-h-[100vh] font-Inter text-[black] relative ${bgColor}`}>
                 <div className="w-full p-2 mt-6 md:mt-0">
@@ -99,7 +96,7 @@ function ServiceCards() {
             <ServiceCard heading={"Overall YouTube Channel Management"}
                 heading2={"Level Up Your YouTube Game with Expert Growth Management"}
                 para={`Our expert strategies and optimization techniques are the secret sauce to skyrocketing your subscribers and engagement. Let${"'"}s unleash your channel${"'"}s full potential and dominate the online space!`}
-                btntext={"Let us Help you Grow"} bgColor={"bg-cover bg-center bg-[url('/Images/calltoaction.webp')]"} link={"/services/youtube-channel-managment"} images={"/Images/Services/Overall YouTube Channel Management.png"} />
+                btntext={"Let us Help you Grow"} bgColor={""} link={"/services/youtube-channel-managment"} images={"/Images/Services/Overall YouTube Channel Management.png"} />
 
             {/* <TrustPilotReview /> */}
 

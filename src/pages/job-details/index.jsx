@@ -76,13 +76,13 @@ function JobDetails() {
 
             <div className="grid grid-cols-1  md:grid-cols-12  justify-center items-center mx-auto max-w-full  w-full min-h-[400px]  bg-[#001b47]">
                 <div className=" text-white md:col-start-3 md:col-span-5 flex flex-col items-center justify-center text-center md:text-left mt-8 xl:mt-1">
-                    <h1 className='text-[24px] md:text-[32px] lg:text-[36px] xl:text-[48px] font-bold xl:leading-[60px] font-Factor_A max-w-xl '>
+                    <h1 className='text-[24px] md:text-[32px] lg:text-[36px] xl:text-[48px] font-bold xl:leading-[60px] font-Factor_A max-w-2xl '>
                         <span className="text-[#01b88d]">  We Think big, </span>
                         <br />start small,
                         <br />and move fast
                     </h1>
                 </div>
-                <div className="w-[100%] h-[150px] md:h-[200px] lg:h-[250px] relative md:col-start-9 md:col-span-2 mb-4">
+                <div className="w-[100%] h-[150px] md:h-[200px] lg:h-[250px] relative md:col-start-8 md:col-span-3 mb-4">
                     <Image
                         src="/Images/ServicesheroSVGs/youtube-niche-with-low-competition.svg"
                         fill
@@ -196,15 +196,15 @@ function JobDetails() {
                                 </button>
                             </Link>
                         </div>
-
+                        <div className="w-full mx-auto p-2 text-blue" id='faqs'>
+                            <FAQs />
+                        </div>
 
                     </div>
                 </div>
 
             </div>
-            <div className="max-w-5xl mx-auto p-2 text-blue" id='faqs'>
-                <FAQs />
-            </div>
+
             <Footer />
         </div >
 

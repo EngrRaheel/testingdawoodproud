@@ -18,7 +18,7 @@ function Hero() {
             {/* bg-gradient-to-b from-[#121521] to-[#121521]/0        */}
 
             {/* hero section text and images div */}
-            <div className="grid grid-cols-1  xl:grid-cols-12  justify-center items-center mx-auto max-w-[1200px] min-h-[90vh] w-full">
+            <div className="grid grid-cols-1  xl:grid-cols-12  justify-center items-center mx-auto max-w-[1200px] min-h-[80vh] w-full">
 
                 <div className="h-full w-full  text-white text-center flex flex-col  items-center justify-center  xl:col-start-1 xl:col-span-5">
                     {/* hero section text */}
@@ -33,8 +33,8 @@ function Hero() {
                         </div>
                         <div>
                             <Link href={"/consultation"} className="text-sm ">
-                                <button className='flex justify-center items-center px-1 py-2  rounded-3xl xl:rounded-lg  font-bold text-white button mt-0 '>
-                                    Let&#39;s Start a New Project
+                                <button className='flex justify-center items-center px-4 py-2  rounded-2xl  font-bold text-white button mt-3 '>
+                                    Let&#39;s Start 
                                     <BsArrowRightShort size={25} />
                                 </button>
                             </Link>
@@ -79,9 +79,9 @@ function Hero() {
             </div>
 
             {/* last section of the herosection */}
-            <div className="grid grid-cols-1 xl:grid-cols-2 justify-center items-center bg-blue/5 w-full h-full mb-8 xl:mb-12 max-w-7xl">
-                <div className="relative h-[250px] w-[300px] xs:w-[400px] sm:w-[500px] mx-auto ">
-                    <Image src="/Images/herosection/heroImage.webp" fill alt="heroImage" className="object-contain" />
+            <div className="grid grid-cols-1 xl:grid-cols-[1.5fr_1fr] justify-center items-center bg-blue/5 w-full h-full mb-8 xl:mb-12 max-w-full">
+                <div className="relative h-[280px] w-[90%] md:w-[700px] lg:w-[800px] mx-auto ">
+                    <Image src="/Images/herosection/Landing Page Image 01.png" fill alt="heroImage" className="object-contain" />
                 </div>
                 <div className="grid grid-cols-1 justify-center items-center space-y-2 my-4">
                     <div className="flex flex-col justify-start items-center">
@@ -100,14 +100,14 @@ function Hero() {
                     <div className="flex flex-col xs:flex-row justify-center items-center gap-4 xs:gap-8">
                         <div>
                             <Link href={"/consultation"} className="text-xs xl:text-sm">
-                                <button className='border border-solid border-[#f0f0f0] px-4 py-2 ml-2 rounded-full  font-bold text-white  bg-blue/40  hover:bg-white hover:text-blue'>
+                                <button className='border border-solid border-[#f0f0f0] px-4 py-2 ml-2 rounded-2xl  font-bold text-white  bg-blue/40  hover:bg-white hover:text-blue'>
                                     Get Free Consultation
                                 </button>
                             </Link>
                         </div>
                         <div>
                             <Link href={"/services"} className="text-xs xl:text-sm ">
-                                <button className=' px-4 py-2 ml-2 rounded-full  font-bold text-white  bg-blue/40  hover:bg-white hover:text-blue'>
+                                <button className=' px-4 py-2 ml-2 rounded-2xl  font-bold text-white  bg-blue/40  hover:bg-white hover:text-blue'>
                                     <div className="flex justify-center items-center gap-2">
                                         <p>See all Services</p>
                                         <svg fill="none" viewBox="0 0 20 21" width="20" class="css-orecyf"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.166 10.5h11.667M10 4.667l5.833 5.833L10 16.334"></path></svg>
