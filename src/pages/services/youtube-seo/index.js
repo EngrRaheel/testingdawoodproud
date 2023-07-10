@@ -95,43 +95,33 @@ function youtubeseo() {
               <SideBar liItem={liItem} sectionIds={sectionIds} />
             </div>
           </div>
-          <div className="w-full mx-auto bg-white min-h-screen md:col-start-4 md:col-span-7 p-2">
-            <div className="max-w-[1172px] mx-auto">
-              {/* <h1 className="font-Inter font-black text-xl sm:text-2xl md:text-3xl lg:text-4xl mt-12">
-                Best YouTube SEO Services to Rank your Videos at the Top of
-                YouTube Search Results
-              </h1> */}
-            </div>
+          <div className="w-full mx-auto bg-white min-h-screen md:col-start-4 md:col-span-6 p-2 mb-28 md:mb-40">
             <div className="max-w-[1172px] mx-auto">
               <div className="flex flex-col justify-center items-start">
                 <div className="flex flex-col justify-center item-center gap-4 mb-3">
-                  <h3 className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter">
-                    At Dawood Proud, we offer comprehensive YouTube video
-                    production services to help you maximize your success on the
-                    platform. Our team of YouTube experts is dedicated to
-                    creating high-quality, engaging content that will captivate
-                    your audience and drive results.
-                    <br />
-                    <br />
-                    <span>
+                  <div className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter space-y-4">
+                    <p>
+                      At Dawood Proud, we offer comprehensive YouTube video
+                      production services to help you maximize your success on
+                      the platform.
+                    </p>{" "}
+                    <p>
+                      Our team of YouTube experts is dedicated to creating
+                      high-quality, engaging content that will captivate your
+                      audience and drive results.
+                    </p>
+                    <p>
                       With our YouTube video creation services, we provide a
                       range of solutions tailored to your specific needs.
+                    </p>
+                    <p>
                       Whether you&apos;re an individual creator, a brand, or a
                       business, we have the expertise to deliver outstanding
                       videos that align with your goals and resonate with your
                       target audience.
-                    </span>
-                  </h3>
+                    </p>
+                  </div>
 
-                  {/* image comes here.. */}
-                  {/* <div className="relative h-[350px] w-[95%] md:w-[100%] bg-blue mx-auto">
-                    <Image
-                      src="/Images/Services/Keyword Research.png"
-                      alt="YouTube Keyword Research"
-                      fill
-                      className="object-contain"
-                    />
-                  </div> */}
                   <h3 className="text-[24px] md:text-[36px] xl:text-[42px] font-bold font-Factor_A">
                     Why Choose Our YouTube Video Production Services:
                   </h3>
@@ -145,27 +135,35 @@ function youtubeseo() {
                   >
                     Professional Expertise
                   </h2>
-                  <p className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter">
-                    Our team consists of experienced professionals who
-                    understand the intricacies of YouTube video production. We
-                    stay up to date with the latest trends, techniques, and
-                    strategies to ensure that your videos stand out from the
-                    crowd.
-                  </p>
 
+                  <div className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter space-y-4">
+                    <p>
+                      Our team consists of experienced professionals who
+                      understand the intricacies of YouTube video production.
+                    </p>
+                    <p>
+                      We stay up to date with the latest trends, techniques, and
+                      strategies to ensure that your videos stand out from the
+                      crowd.
+                    </p>
+                  </div>
                   <h2
                     id="high_quality_content"
                     className="text-xl md:text-2xl font-bold font-Factor_A"
                   >
                     High-Quality Content
                   </h2>
-                  <p className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter">
-                    We pride ourselves on delivering exceptional quality in
-                    every video we create. From scripting and storyboarding to
-                    filming and editing, we maintain a keen eye for detail to
-                    produce polished, visually appealing videos that leave a
-                    lasting impact.
-                  </p>
+                  <div className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter space-y-4">
+                    <p>
+                      We pride ourselves on delivering exceptional quality in
+                      every video we create.
+                    </p>
+                    <p>
+                      From scripting and storyboarding to filming and editing,
+                      we maintain a keen eye for detail to produce polished,
+                      visually appealing videos that leave a lasting impact.
+                    </p>
+                  </div>
 
                   <h2
                     id="engaging_faceless_youtube_content"
@@ -173,28 +171,37 @@ function youtubeseo() {
                   >
                     Engaging Faceless YouTube Content
                   </h2>
-                  <p className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter">
-                    Our video production approach emphasizes engaging faceless
-                    content that captivates viewers. We understand the
-                    importance of connecting with your audience, and our
-                    creative team excels at crafting videos that resonate with
-                    viewers, even without on-screen talent.
-                  </p>
 
+                  <div className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter space-y-4">
+                    <p>
+                      Our video production approach emphasizes engaging faceless
+                      content that captivates viewers.
+                    </p>
+                    <p>
+                      We understand the importance of connecting with your
+                      audience, and our creative team excels at crafting videos
+                      that resonate with viewers, even without on-screen talent.
+                    </p>
+                  </div>
                   <h2
                     id="tailored_solutions"
                     className="text-xl md:text-2xl font-bold font-Factor_A"
                   >
                     Tailored Solutions
                   </h2>
-                  <p className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter">
-                    We recognize that each YouTube channel is unique, with its
-                    own branding, goals, and target audience. Our services are
-                    fully customizable to meet your specific requirements. We
-                    take the time to understand your vision and tailor our
-                    approach accordingly, ensuring that the final product aligns
-                    seamlessly with your brand identity.
-                  </p>
+
+                  <div className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter space-y-4">
+                    <p>
+                      We recognize that each YouTube channel is unique, with its
+                      own branding, goals, and target audience. Our services are
+                      fully customizable to meet your specific requirements.
+                    </p>
+                    <p>
+                      We take the time to understand your vision and tailor our
+                      approach accordingly, ensuring that the final product
+                      aligns seamlessly with your brand identity.
+                    </p>
+                  </div>
 
                   <h3
                     id="collaboration_communication"
@@ -202,36 +209,49 @@ function youtubeseo() {
                   >
                     Collaboration and Communication
                   </h3>
-                  <p className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter">
-                    We believe in working closely with our clients throughout
-                    the video production process. From initial ideation to final
-                    delivery, we maintain open lines of communication, seeking
-                    your input and feedback at every stage. Our collaborative
-                    approach ensures that your vision is brought to life while
-                    leveraging our expertise.
-                  </p>
 
+                  <div className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter space-y-4">
+                    <p>
+                      We believe in working closely with our clients throughout
+                      the video production process. From initial ideation to
+                      final delivery, we maintain open lines of communication,
+                      seeking your input and feedback at every stage.
+                    </p>
+                    <p>
+                      Our collaborative approach ensures that your vision is
+                      brought to life while leveraging our expertise.
+                    </p>
+                  </div>
                   <h3
                     id="timely_delivery"
                     className="text-xl md:text-2xl font-bold font-Factor_A"
                   >
                     Timely Delivery
                   </h3>
-                  <p className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter">
-                    We understand the importance of timely delivery in the
-                    fast-paced world of YouTube. Our team is committed to
-                    meeting deadlines without compromising on quality. You can
-                    trust us to deliver your videos promptly, allowing you to
-                    maintain a consistent content schedule and engage your
-                    audience effectively.
-                  </p>
 
-                  <p className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter">
-                    Partner with Dawood Proud for your YouTube video production
-                    needs and take your channel to new heights. Contact us today
-                    to discuss how our services can help you achieve your
-                    YouTube goals.
-                  </p>
+                  <div className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter space-y-4">
+                    <p>
+                      We understand the importance of timely delivery in the
+                      fast-paced world of YouTube. Our team is committed to
+                      meeting deadlines without compromising on quality.
+                    </p>
+                    <p>
+                      You can trust us to deliver your videos promptly, allowing
+                      you to maintain a consistent content schedule and engage
+                      your audience effectively.
+                    </p>
+                  </div>
+
+                  <div className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter space-y-4">
+                    <p>
+                      Partner with Dawood Proud for your YouTube video
+                      production needs and take your channel to new heights.
+                    </p>
+                    <p>
+                      Contact us today to discuss how our services can help you
+                      achieve your YouTube goals.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>

@@ -71,7 +71,7 @@ function youtubeseo() {
           </div>
           <div className="w-[100%] h-[150px] md:h-[200px] lg:h-[250px] relative md:col-start-9 md:col-span-2 mb-4">
             <Image
-              src="/Images/ServicesheroSVGs/youtube-niche-with-low-competition.svg"
+              src="/Images/Services/YouTube Niches with Low Competition.svg"
               fill
               alt="youtube-niche-with-low-competition"
               className="object-contain"
@@ -85,36 +85,23 @@ function youtubeseo() {
               <SideBar liItem={liItem} sectionIds={sectionIds} />
             </div>
           </div>
-          <div className="w-full mx-auto bg-white min-h-screen md:col-start-4 md:col-span-7 p-2">
-            <div className="max-w-[1172px] mx-auto">
-              {/* <h1 className="font-Inter font-black text-xl sm:text-2xl md:text-3xl lg:text-4xl mt-12">
-                YouTube Niches with Low Competition Services to Optimize for
-                Your Target Audience
-              </h1> */}
-            </div>
+          <div className="w-full mx-auto bg-white min-h-screen md:col-start-4 md:col-span-6 p-2 mb-28 md:mb-40">
             <div className="max-w-[1172px] mx-auto">
               <div className="flex flex-col justify-center items-start">
-                <div className="flex flex-col justify-center item-center gap-4 ">
-                  <h3 className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter">
-                    Discover YouTube niches with low competition and high volume
-                    to optimize your channel for success. Our services
-                    specialize in identifying profitable niches that perfectly
-                    align with your target audience. Here are key points about
-                    our YouTube niche services:
-                  </h3>
-
-                  {/* image comes here.. */}
-                  <div className="relative h-[350px] w-[95%] md:w-[100%] bg-blue mx-auto">
-                    <Image
-                      src="/Images/Services/Keyword Research.png"
-                      alt="YouTube Keyword Research"
-                      fill
-                      className="object-contain"
-                    />
+                <div className="flex flex-col justify-center item-center gap-4 mt-4">
+                  <div className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter space-y-4">
+                    <p>
+                      Discover YouTube niches with low competition and high
+                      volume to optimize your channel for success.
+                    </p>{" "}
+                    <p>
+                      Our services specialize in identifying profitable niches
+                      that perfectly align with your target audience.
+                    </p>{" "}
+                    <p className="font-medium">
+                      Here are key points about our YouTube niche services:{" "}
+                    </p>
                   </div>
-                  {/* <h3 className="text-base md:text-xl lg:text-2xl font-Inter font-semibold p-1 -mb-8">
-                    Why Choose Our YouTube Keywords Research Services?
-                  </h3> */}
                 </div>
 
                 {/* all the content starts here... */}
@@ -125,68 +112,95 @@ function youtubeseo() {
                   >
                     Low Competition
                   </h2>
-                  <p className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter">
-                    Stand out in a crowded YouTube landscape by targeting niches
-                    with low competition. Establish yourself as a go-to resource
-                    in your field and attract an engaged audience.
-                  </p>
 
+                  <div className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter space-y-4">
+                    <p>
+                      Stand out in a crowded YouTube landscape by targeting
+                      niches with low competition.
+                    </p>
+                    <p>
+                      Establish yourself as a go-to resource in your field and
+                      attract an engaged audience.
+                    </p>
+                  </div>
                   <h2
                     id="high_volume"
                     className="text-xl md:text-2xl font-bold font-Factor_A"
                   >
                     High Volume
                   </h2>
-                  <p className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter">
-                    Tap into a larger audience potential by focusing on niches
-                    with high search volume. Increase your views, subscribers,
-                    and engagement by targeting topics people are actively
-                    searching for.
-                  </p>
 
+                  <div className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter space-y-4">
+                    <p>
+                      Tap into a larger audience potential by focusing on niches
+                      with high search volume.
+                    </p>
+                    <p>
+                      Increase your views, subscribers, and engagement by
+                      targeting topics people are actively searching for.
+                    </p>
+                  </div>
                   <h2
                     id="rising_trend"
                     className="text-xl md:text-2xl font-bold font-Factor_A"
                   >
                     Rising Trend
                   </h2>
-                  <p className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter">
-                    Stay ahead of the competition by identifying niches on the
-                    rise. Capitalize on emerging trends and position yourself as
-                    a trendsetter to attract a dedicated following.
-                  </p>
 
+                  <div className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter space-y-4">
+                    <p>
+                      Stay ahead of the competition by identifying niches on the
+                      rise.
+                    </p>
+                    <p>
+                      Capitalize on emerging trends and position yourself as a
+                      trendsetter to attract a dedicated following.
+                    </p>
+                  </div>
                   <h2
                     id="youtube_shorts_niches"
                     className="text-xl md:text-2xl font-bold font-Factor_A"
                   >
                     YouTube Shorts Niches
                   </h2>
-                  <p className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter">
-                    Optimize your content for YouTube Shorts, a rapidly growing
-                    feature. Find niches tailored for short-form videos to
-                    maximize visibility and engagement.
-                  </p>
 
+                  <div className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter space-y-4">
+                    <p>
+                      Optimize your content for YouTube Shorts, a rapidly
+                      growing feature.
+                    </p>
+                    <p>
+                      Find niches tailored for short-form videos to maximize
+                      visibility and engagement.
+                    </p>
+                  </div>
                   <h2
                     id="top_faceless_youtube_niches"
                     className="text-xl md:text-2xl font-bold font-Factor_A"
                   >
                     Top Faceless YouTube Niches
                   </h2>
-                  <p className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter">
-                    Explore niches that don&apos;t require showing your face.
-                    Cater to different preferences and create engaging content
-                    while maintaining privacy or exploring alternative styles.
-                  </p>
+
+                  <div className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter space-y-4">
+                    <p>
+                      Explore niches that don&apos;t require showing your face.
+                      Cater to different preferences and create engaging content
+                      while maintaining privacy or exploring alternative styles.
+                    </p>
+                  </div>
                   <br />
-                  <p>
-                    At DawoodProud, we specialize in helping you find the
-                    perfect YouTube niches with low competition that resonate
-                    with your target audience. Maximize your channel&apos;s
-                    potential with our expertise in YouTube automation and
-                    in-depth research techniques.
-                  </p>
+
+                  <div className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter space-y-4">
+                    <p>
+                      At DawoodProud, we specialize in helping you find the
+                      perfect YouTube niches with low competition that resonate
+                      with your target audience.
+                    </p>
+                    <p>
+                      Maximize your channel&apos;s potential with our expertise
+                      in YouTube automation and in-depth research techniques.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>

@@ -62,7 +62,7 @@ function YoutubeConsutation() {
         <meta property="og:image" content="" />
       </Head>
 
-      <div className="w-full flex flex-col justify-center items-center h-full font-Halvic bg-[#001b47]">
+      <div className="w-full flex flex-col justify-center items-center h-full font-Halvic bg-[#001b47] ">
         <div className="w-full bg-white ">
           <Navbar bg_color={"white"} position={"sticky"} />
         </div>
@@ -83,7 +83,7 @@ function YoutubeConsutation() {
             </div>
             <div className="w-[100%] h-[150px] md:h-[200px] lg:h-[250px] relative md:col-start-9 md:col-span-2 mb-4">
               <Image
-                src="/Images/ServicesheroSVGs/Youtube_consultation.svg"
+                src="/Images/Services/YouTube Consultation.svg"
                 fill
                 alt="Youtube_consultation"
                 className="object-contain"
@@ -99,34 +99,29 @@ function YoutubeConsutation() {
               <SideBar liItem={liItem} sectionIds={sectionIds} />
             </div>
           </div>
-          <div className="w-full mx-auto bg-white min-h-screen md:col-start-4 md:col-span-7 p-2">
-           
+          <div className="w-full mx-auto bg-white min-h-screen md:col-start-4 md:col-span-6 p-2  mb-28 md:mb-40">
             <div className="max-w-[1172px] mx-auto">
               <div className="flex flex-col justify-center items-start">
                 <div className="flex flex-col justify-center item-center gap-4 mb-3">
-                  <h3 className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter">
-                    Welcome to Dawood Proud, the hub of certified YouTube
-                    consultants who are passionate about helping your YouTube
-                    channel thrive. Unlock your channel&apos;s true potential
-                    with our expert guidance and tailored content strategies.
-                  </h3>
+                  <div className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter space-y-4">
+                    <p>
+                      Welcome to Dawood Proud, the hub of certified YouTube
+                      consultants who are passionate about helping your YouTube
+                      channel thrive.
+                    </p>
+                    <p>
+                      Unlock your channel&apos;s true potential with our expert
+                      guidance and tailored content strategies.
+                    </p>
+                  </div>
+
                   <h3 className="text-[24px] md:text-[36px] xl:text-[42px] font-bold font-Factor_A">
                     Why Choose Our YouTube Consulting Services?
                   </h3>
                 </div>
 
-                {/* image comes here.. */}
-                {/* <div className="relative h-[350px] w-[95%] md:w-[100%] bg-blue mx-auto">
-                  <Image
-                    src="/Images/Services/Keyword Research.png"
-                    alt="YouTube Keyword Research"
-                    fill
-                    className="object-contain"
-                  />
-                </div> */}
-
                 {/* all the content starts here... */}
-                <div className="space-y-4 mt-8 p-3">
+                <div className="space-y-8 mt-8 p-3">
                   <h2
                     id="free_consultation"
                     className="text-xl md:text-2xl font-bold font-Factor_A"

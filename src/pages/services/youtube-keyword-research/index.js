@@ -23,29 +23,34 @@ function youtubeseo() {
       id: "engaged_subscribers",
     },
     {
-      name: "YouTube Keywords Research Process",
+      name: <p className="font-medium"> YouTube Keywords Research Process</p>,
       id: "yotube_keyword_research_process",
     },
 
     {
-      name: "1. Understanding Your Niche",
+      name: "5. Understanding Your Niche",
       id: "understanding_your_niche",
     },
     {
-      name: "2. Comprehensive Keyword Analysis",
+      name: "6. Comprehensive Keyword Analysis",
       id: "comprehensive_keyword_analysis",
     },
     {
-      name: "3. Keyword Recommendations",
+      name: "7. Keyword Recommendations",
       id: "keyword_recommendations",
     },
     {
-      name: "4. Implementation Guidance",
+      name: "8. Implementation Guidance",
       id: "implementation_guidance",
     },
   ];
 
   const sectionIds = [
+    "professional_expertise",
+    "low_competition_high_volume",
+    "free_consistent_views",
+    "engaged_subscribers",
+    "yotube_keyword_research_process",
     "understanding_your_niche",
     "comprehensive_keyword_analysis",
     "keyword_recommendations",
@@ -89,7 +94,7 @@ function youtubeseo() {
           </div>
           <div className="w-[100%] h-[150px] md:h-[200px] lg:h-[250px] relative md:col-start-9 md:col-span-2 mb-4">
             <Image
-              src="/Images/ServicesheroSVGs/Youtube_keywordResearch.svg"
+              src="/Images/Services/YouTube Keywords Research.png"
               fill
               alt="Youtube_keywordResearch"
               className="object-contain"
@@ -103,7 +108,7 @@ function youtubeseo() {
               <SideBar liItem={liItem} sectionIds={sectionIds} />
             </div>
           </div>
-          <div className="w-full mx-auto bg-white min-h-screen md:col-start-4 md:col-span-7 p-2">
+          <div className="w-full mx-auto bg-white min-h-screen md:col-start-4 md:col-span-6 p-2 mb-28 md:mb-40">
             <div className="max-w-[1172px] mx-auto">
               {/* <h1 className="font-Inter font-black text-xl sm:text-2xl md:text-3xl lg:text-4xl mt-12">
                 YouTube Keywords Research Services to Leverage Low Competition &
@@ -113,23 +118,18 @@ function youtubeseo() {
             <div className="max-w-[1172px] mx-auto">
               <div className="flex flex-col justify-center items-start">
                 <div className="flex flex-col justify-center item-center gap-4 ">
-                  <h3 className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter">
-                    Are you looking to maximize your visibility on YouTube and
-                    attract a dedicated audience? Our YouTube Keywords Research
-                    Services provide you with expert assistance in finding low
-                    competition and high volume keywords to enhance your YouTube
-                    titles and increase your chances of ranking higher in
-                    YouTube search results.
-                  </h3>
-
-                  {/* image comes here.. */}
-                  <div className="relative h-[350px] w-[95%] md:w-[100%] bg-blue mx-auto">
-                    <Image
-                      src="/Images/Services/Keyword Research.png"
-                      alt="YouTube Keyword Research"
-                      fill
-                      className="object-contain"
-                    />
+                  <div className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter space-y-4">
+                    <p>
+                      Are you looking to maximize your visibility on YouTube and
+                      attract a dedicated audience?
+                    </p>
+                    <p>
+                      Our YouTube Keywords Research Services provide you with
+                      expert assistance in finding low competition and high
+                      volume keywords to enhance your YouTube titles and
+                      increase your chances of ranking higher in YouTube search
+                      results.
+                    </p>
                   </div>
                   <h3 className="text-base md:text-xl lg:text-2xl font-Inter font-semibold p-1 -mb-8">
                     Why Choose Our YouTube Keywords Research Services?
@@ -144,13 +144,18 @@ function youtubeseo() {
                   >
                     Professional Expertise
                   </h2>
-                  <p className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter">
-                    Our team of YouTube experts has extensive knowledge and
-                    experience in keyword research specifically tailored for
-                    YouTube. We understand the platform&apos;s algorithm and can
-                    identify keywords that have the potential to bring you
-                    consistent views and engaged subscribers.
-                  </p>
+                  <div className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter space-y-4">
+                    <p>
+                      Our team of YouTube experts has extensive knowledge and
+                      experience in keyword research specifically tailored for
+                      YouTube.
+                    </p>
+                    <p>
+                      We understand the platform&apos;s algorithm and can
+                      identify keywords that have the potential to bring you
+                      consistent views and engaged subscribers.
+                    </p>
+                  </div>
 
                   <h2
                     id="low_competition_high_volume"
@@ -158,41 +163,52 @@ function youtubeseo() {
                   >
                     Low Competition, High Volume
                   </h2>
-                  <p className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter">
-                    High Volume: We delve deep into keyword analysis to discover
-                    hidden gems - low competition keywords with high search
-                    volume. By leveraging these keywords in your video titles,
-                    you can stand out from the crowd and attract more organic
-                    traffic.
-                  </p>
-
+                  <div className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter space-y-4">
+                    <p>
+                      High Volume: We delve deep into keyword analysis to
+                      discover hidden gems - low competition keywords with high
+                      search volume.
+                    </p>
+                    <p>
+                      By leveraging these keywords in your video titles, you can
+                      stand out from the crowd and attract more organic traffic.
+                    </p>
+                  </div>
                   <h2
                     id="free_consistent_views"
                     className="text-xl md:text-2xl font-bold font-Factor_A"
                   >
                     Free Consistent Views
                   </h2>
-                  <p className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter">
-                    Optimizing your YouTube titles with the right keywords
-                    increases your chances of appearing in relevant search
-                    results. This exposure brings you free, consistent views
-                    from users actively searching for content in your niche.
-                  </p>
-
+                  <div className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter space-y-4">
+                    <p>
+                      Optimizing your YouTube titles with the right keywords
+                      increases your chances of appearing in relevant search
+                      results.
+                    </p>
+                    <p>
+                      This exposure brings you free, consistent views from users
+                      actively searching for content in your niche.
+                    </p>
+                  </div>
                   <h2
                     id="engaged_subscribers"
                     className="text-xl md:text-2xl font-bold font-Factor_A"
                   >
                     Engaged Subscribers
                   </h2>
-                  <p className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter">
-                    When your video appears in search results with compelling
-                    titles, it captures the attention of potential subscribers
-                    who are genuinely interested in your content. By targeting
-                    the right keywords, we help you attract engaged subscribers
-                    who are more likely to interact, comment, and share your
-                    videos.
-                  </p>
+                  <div className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter space-y-4">
+                    <p>
+                      When your video appears in search results with compelling
+                      titles, it captures the attention of potential subscribers
+                      who are genuinely interested in your content.
+                    </p>
+                    <p>
+                      By targeting the right keywords, we help you attract
+                      engaged subscribers who are more likely to interact,
+                      comment, and share your videos.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -215,59 +231,74 @@ function youtubeseo() {
                   >
                     Understanding Your Niche
                   </h2>
-                  <p className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter">
-                    We start by gaining a thorough understanding of your niche,
-                    target audience, and content goals. This allows us to tailor
-                    our keyword research to your specific needs.
-                  </p>
-
+                  <div className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter space-y-4">
+                    <p>
+                      We start by gaining a thorough understanding of your
+                      niche, target audience, and content goals.
+                    </p>
+                    <p>
+                      This allows us to tailor our keyword research to your
+                      specific needs.
+                    </p>
+                  </div>
                   <h2
                     id="comprehensive_keyword_analysis"
                     className="text-xl md:text-2xl font-bold font-Factor_A"
                   >
                     Comprehensive Keyword Analysis
                   </h2>
-                  <p className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter">
-                    Our team conducts in-depth research using advanced tools and
-                    techniques to identify relevant keywords with low
-                    competition and high search volume. We analyze trends,
-                    search patterns, and competitor strategies to uncover
-                    untapped keyword opportunities.
-                  </p>
-
+                  <div className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter space-y-4">
+                    <p>
+                      Our team conducts in-depth research using advanced tools
+                      and techniques to identify relevant keywords with low
+                      competition and high search volume.
+                    </p>
+                    <p>
+                      We analyze trends, search patterns, and competitor
+                      strategies to uncover untapped keyword opportunities.
+                    </p>
+                  </div>
                   <h2
                     id="keyword_recommendations"
                     className="text-xl md:text-2xl font-bold font-Factor_A"
                   >
                     Keyword Recommendations
                   </h2>
-                  <p className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter">
-                    Based on our research, we provide you with a comprehensive
-                    list of recommended keywords for your YouTube titles. These
-                    keywords are carefully selected to maximize your visibility
-                    and engagement.
-                  </p>
-
+                  <div className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter space-y-4">
+                    <p>
+                      Based on our research, we provide you with a comprehensive
+                      list of recommended keywords for your YouTube titles.
+                    </p>
+                    <p>
+                      These keywords are carefully selected to maximize your
+                      visibility and engagement.
+                    </p>
+                  </div>
                   <h2
                     id="implementation_guidance"
                     className="text-xl md:text-2xl font-bold font-Factor_A"
                   >
                     Implementation Guidance
                   </h2>
-                  <p className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter">
-                    We guide you on how to effectively incorporate the
-                    researched keywords into your video titles to optimize your
-                    chances of ranking higher in YouTube search results.
-                  </p>
+                  <div className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter space-y-4">
+                    <p>
+                      We guide you on how to effectively incorporate the
+                      researched keywords into your video titles to optimize
+                      your chances of ranking higher in YouTube search results.
+                    </p>
 
-                  <p className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter">
-                    Unlock the power of YouTube&apos;s search algorithm and
-                    increase your channel&apos;s visibility with our YouTube
-                    Keywords Research Services. Gain consistent views, attract
-                    engaged subscribers, and grow your channel organically.
-                    Contact us today to leverage low competition and high volume
-                    keywords for your YouTube titles.
-                  </p>
+                    <p>
+                      Unlock the power of YouTube&apos;s search algorithm and
+                      increase your channel&apos;s visibility with our YouTube
+                      Keywords Research Services.
+                    </p>
+                    <p>
+                      Gain consistent views, attract engaged subscribers, and
+                      grow your channel organically. Contact us today to
+                      leverage low competition and high volume keywords for your
+                      YouTube titles.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>

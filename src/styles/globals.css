@@ -487,7 +487,8 @@ background: radial-gradient(to top, #1A2948, #030713); */
   height: auto;
   padding-left: 4px;
   /* display: block;   */
-  background: #0000004d;
+  background: #9e93934d;
+ 
 }
 
 /* Track */
@@ -497,7 +498,7 @@ background: radial-gradient(to top, #1A2948, #030713); */
 }
 
 .custom-scroll::-webkit-scrollbar-thumb {
-  background: #949494;
+  background: #5cb5f9;
 }
 
 .MuiRating-icon {
@@ -990,7 +991,7 @@ button[type="remove"]:hover {
     width: 130%;
   }
 }
-@media (min-width: 300px)  {
+@media (min-width: 300px) {
   .hsds-row--oval-bottom::after {
     background: #ffffff;
     border-radius: 60%;
@@ -999,8 +1000,16 @@ button[type="remove"]:hover {
     display: block;
     height: 200px;
     position: absolute;
-    left:-45%;
+    left: -45%;
     width: 190%;
   }
 }
 
+.triangle {
+  
+    width: 0;
+    height: 0;
+    border-top: 30px solid white;
+    border-right: 30px solid transparent;
+  
+}

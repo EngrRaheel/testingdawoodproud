@@ -72,59 +72,56 @@ function youtubeseo() {
           </div>
           <div className="w-[100%] h-[150px] md:h-[200px] lg:h-[250px] relative md:col-start-9 md:col-span-2 mb-4">
             <Image
-              src="/Images/ServicesheroSVGs/youtube-automation.svg"
+              src="/Images/Services/YouTube Automation.svg"
               fill
               alt="youtube-automation"
               className="object-contain"
             ></Image>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-12  bg-white  mx-auto max-w-full  w-full ">
+        <div className="grid grid-cols-1 md:grid-cols-12  bg-white  mx-auto max-w-full  w-full  ">
           {/* sidebar here  */}
-          <div className="mx-5   md:col-span-3 mt-6 ">
+          <div className="mx-5   md:col-span-3 mt-6">
             <div className="sticky top-12 ">
               <SideBar liItem={liItem} sectionIds={sectionIds} />
             </div>
           </div>
-          <div className="w-full mx-auto bg-white min-h-screen md:col-start-4 md:col-span-7 p-2">
-            <div className="max-w-[1172px] mx-auto">
-              {/* <h1 className="font-Inter font-black text-xl sm:text-2xl md:text-3xl lg:text-4xl mt-12">
-                YouTube Automation Done For You: Grow your YouTube Channel
-                without Making Videos
-              </h1> */}
-            </div>
+          <div className="w-full mx-auto bg-white min-h-screen md:col-start-4 md:col-span-6 p-2 mb-28 md:mb-40">
             <div className="max-w-[1172px] mx-auto">
               <div className="flex flex-col justify-center items-start">
-                <div className="flex flex-col justify-center item-center gap-4 ">
-                  <h3 className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter">
-                    At Dawood Proud, we offer comprehensive YouTube Automation
-                    Services designed to help you grow your channel without the
-                    hassle of creating videos. Our expert team will handle all
-                    aspects of automation, allowing you to achieve success
-                    effortlessly. With our proven strategies, you can unlock the
-                    full potential of your YouTube channel and maximize your
-                    reach. Whether you&apos;re a content creator, business
-                    owner, or aspiring influencer, our &quot;Done For You&quot;
-                    approach ensures that your channel flourishes while you
-                    focus on other important aspects of your online presence.
-                    Say goodbye to the time-consuming task of video creation and
-                    let us take care of the automation process for you. With our
-                    YouTube Automation Services, you&apos;ll experience
-                    substantial growth and engagement, attracting a wider
-                    audience and increasing your subscribers. Start your journey
-                    towards YouTube success today with Dawood Proud&apos;s
-                    professional and reliable YouTube Automation Services.
-                  </h3>
-
-                  {/* image comes here.. */}
-                  <div className="relative h-[350px] w-[95%] md:w-[100%] bg-blue mx-auto">
-                    <Image
-                      src="/Images/Services/Keyword Research.png"
-                      alt="YouTube Keyword Research"
-                      fill
-                      className="object-contain"
-                    />
+                <div className="flex flex-col justify-center item-center gap-6 ">
+                  <div className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter space-y-5">
+                    <p>
+                      At Dawood Proud, we offer comprehensive YouTube Automation
+                      Services designed to help you grow your channel without
+                      the hassle of creating videos.
+                    </p>
+                    <p>
+                      Our expert team will handle all aspects of automation,
+                      allowing you to achieve success effortlessly. With our
+                      proven strategies, you can unlock the full potential of
+                      your YouTube channel and maximize your reach.
+                    </p>
+                    <p>
+                      Whether you&apos;re a content creator, business owner, or
+                      aspiring influencer, our &quot;Done For You&quot; approach
+                      ensures that your channel flourishes while you focus on
+                      other important aspects of your online presence.
+                    </p>
+                    <p>
+                      Say goodbye to the time-consuming task of video creation
+                      and let us take care of the automation process for you.
+                      With our YouTube Automation Services, you&apos;ll
+                      experience substantial growth and engagement, attracting a
+                      wider audience and increasing your subscribers.
+                    </p>
+                    <p>
+                      Start your journey towards YouTube success today with
+                      Dawood Proud&apos;s professional and reliable YouTube
+                      Automation Services.
+                    </p>
                   </div>
+
                   <div className="flex flex-col justify-center items-start gap-12">
                     <h3 className="text-[24px] md:text-[36px] xl:text-[42px] font-bold font-Factor_A">
                       Our YouTube Automation Services
@@ -137,7 +134,7 @@ function youtubeseo() {
                 </div>
 
                 {/* all the content starts here... */}
-                <div className="space-y-4 my-12 p-3 ">
+                <div className="space-y-6 my-12 p-3 ">
                   <h2
                     id="effortless_channel_growth"
                     className="text-xl md:text-2xl font-bold font-Factor_A"
@@ -227,12 +224,12 @@ function youtubeseo() {
                   <h3 className="text-[24px] md:text-[36px] xl:text-[42px] font-bold font-Factor_A">
                     Get Started with YouTube Automation Today!
                   </h3>
-                  <p>
+                  <div className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-normal leading-[32.4px] mt-4 font-Inter">
                     Achieve YouTube success without the stress of video
                     creation. Let Dawood Proud&apos;s YouTube Automation
                     Services handle the process for you. Contact us now to get
                     started and take your YouTube channel to new heights..
-                  </p>
+                  </div>
                 </div>
               </div>
             </div>

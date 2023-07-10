@@ -136,8 +136,8 @@ const YtSlider = () => {
             autoPlay={true}
             // loop={true}
             modules={[Autoplay, Pagination]}
-            slidesPerView={1}
-            spaceBetween={40}
+            slidesPerView={4}
+            spaceBetween={30}
 
             breakpoints={{
               480: {
@@ -161,7 +161,7 @@ const YtSlider = () => {
                 spaceBetween: 30,
               },
               1200: {
-                slidesPerView: 3.8,
+                slidesPerView: 3.5,
                 spaceBetween: 30,
               },
 

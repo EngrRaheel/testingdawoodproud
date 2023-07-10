@@ -81,7 +81,7 @@ function YoutubeConsutation() {
               <SideBar liItem={liItem} sectionIds={sectionIds} />
             </div>
           </div>
-          <div className="w-full mx-auto bg-white min-h-screen md:col-start-4 md:col-span-7 p-2">
+          <div className="w-full mx-auto bg-white min-h-screen md:col-start-4 md:col-span-7 p-2 mb-28 md:mb-40">
             <div className="mx-auto w-[100%]  mt-5">
               <h1 className="font-Inter font-black text-5xl mt-12">
                 YouTube Monetization Services

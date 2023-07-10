@@ -52,7 +52,7 @@ function ServiceCards() {
             <ServiceCard heading={"Certified YouTube Consultant"}
                 heading2={`Unlock Your YouTube  Potential with a Certified YouTube Strategist`}
                 para={`Get a comprehensive channel evaluation and Tailored Content Strategy that help you unlock the secrets to YouTube Channel Growth , connect with your audience, and build your brand on this exciting platform. Ready to take your channel to new heights? `}
-                btntext={`Let${"'"}s get started`} link={"/services/youtube-consultation"} images={"/Images/Services/Certified YouTube Consultant.png"} bgColor={""} />
+                btntext={`Let${"'"}s get started`} link={"/services/youtube-consultation"} images={"/Images/Services/YouTube Consultation.svg"} bgColor={""} />
 
             <ServiceCard heading={"YouTube SEO"}
                 heading2={"Supercharge Your Videos with YouTube SEO Services"}
@@ -83,7 +83,7 @@ function ServiceCards() {
             <ServiceCard heading={"YouTube Automation"}
                 heading2={"Earn passive income with Faceless YouTube videos."}
                 para={`Start your Faceless Automated YouTube channel with our YouTube Automation Services! From niche selection to channel setup, faceless video creation, and channel management, we${"'"}ve got you covered.`}
-                btntext={"Get started today"} bgColor={""} link={"/services/youtube-automation"} images={"/Images/Services/YouTube Automation.webp"} />
+                btntext={"Get started today"} bgColor={""} link={"/services/youtube-automation"} images={"/Images/Services/YouTube Automation.svg"} />
 
             {/* <div className="bg-cover bg-center bg-[url('/Images/blob_bg_2.png')]"> */}
 
@@ -91,7 +91,7 @@ function ServiceCards() {
             <ServiceCard heading={"YouTube Niches "}
                 heading2={"Get YouTube Niches with Low Competition for Your Target Audience"}
                 para={`Uncover profitable YouTube Automation Niches with low competition and Niches for YouTube Shorts that perfectly align with your target audience.`}
-                btntext={"Get started today"} bgColor={""} link={"/services/youtube-niche-with-low-competition"} images={"/Images/Services/YouTube Automation.webp"} />
+                btntext={"Get started today"} bgColor={""} link={"/services/youtube-niche-with-low-competition"} images={"/Images/Services/YouTube Niches with Low Competition.svg"} />
 
             {/* channle optimization */}
 

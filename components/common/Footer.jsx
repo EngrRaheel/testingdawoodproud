@@ -20,11 +20,14 @@ function Footer() {
                     </div>
                     {/* <div className="col-span-full mb-7 md:mb-8"></div> */}
                     <div className="col-span-full md:col-span-3 flex flex-col">
-                        <div className="font-medium  mb-8 md:mb-12 text-left ">
+                        <h2 className="mb-4 sm:mb-3 font-bold text-[#01b88d]">
+                            Our mission
+                        </h2>
+                        <p className="font-medium  mb-8 md:mb-12 text-left ">
                             Our mission at Dawood Proud is to help YouTube creators and businesses stand out from the Crowd.
                             We provide customized services to help our clients gain views, engaged subscribers,
                             and loyal audiences. With our support, our clients do achieve success and become leaders in their niches.
-                        </div>
+                        </p>
 
                     </div>
                     <div className="col-span-full md:col-span-6 mt-8 md:mt-0 text-md">
@@ -110,7 +113,7 @@ function Footer() {
                         </p>
 
                     </div>
-                    <div className='xl:col-start-8  xl:col-span-5 flex justify-between items-center'>
+                    <div className='xl:col-start-8  xl:col-span-5 flex justify-center gap-4 items-center'>
 
                         <div className='w-[20%] h-16 relative'>
                             <Image src={"/Images/googlepremierbadge2023.jpg"} fill alt="logo" className='object-contain' />
@@ -118,7 +121,7 @@ function Footer() {
                         <div className='w-[20%] h-16 relative'>
                             <Image src={"/Images/Microsoft-Elite-Channel-Partner-2022.png"} fill alt="logo" className='object-contain' />
                         </div>
-                        <div className='w-[50%] h-16 relative'>
+                        <div className='w-[20%] h-16 relative'>
                             <Image src={"/Images/Google ads partner.png"} fill alt="logo" className='object-contain' />
                         </div>
                     </div>

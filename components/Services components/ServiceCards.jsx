@@ -4,6 +4,8 @@ import Link from 'next/link'
 import ReviewSlider from "../../components/ReviewSlider/RatingsSlider";
 import TrustPilotReview from '../TrustPilot/TrustPilotReview';
 import YtSlider from "../YtSlider/Slider"
+import Clients_review_item from '../Clients_Review/Clients_review_item';
+import Client_Review from '../Clients_Review/Clients_review_slider';
 
 function ServiceCards() {
     return (
@@ -20,7 +22,7 @@ function ServiceCards() {
                 para={`Get Your Videos Ranked on YouTube Search Results to drive consistent traffic and engaged subscribers. Optimize your videos with winning strategies to dominate the world${"'"}s second-largest search engine.`}
                 btntext={"Dominate YouTube Search Now"} bgColor={""} link={"/services/youtube-seo"} images={"/Images/Services/YouTube_SEO_service.png"} />
 
-          
+
             {/* rating of the gogle clietns review section */}
 
             {/* <ReviewSlider /> */}
@@ -39,7 +41,7 @@ function ServiceCards() {
             <ServiceCard heading={"YouTube Automation"}
                 heading2={"Earn passive income with Faceless YouTube videos."}
                 para={`Start your Faceless Automated YouTube channel with our YouTube Automation Services! From niche selection to channel setup, faceless video creation, and channel management, we${"'"}ve got you covered.`}
-                btntext={"Get started today"} bgColor={""} link={"/consultation"} images={"/Images/Services/YouTube Automation.webp"} />
+                btntext={"Get started today"} bgColor={""} link={"/consultation"} images={"/Images/Services/YouTube Automation.svg"} />
 
             {/* <div className="bg-cover bg-center bg-[url('/Images/blob_bg_2.png')]"> */}
 
@@ -60,6 +62,9 @@ function ServiceCards() {
                 btntext={"Let us Help you Grow"} bgColor={""} link={"/consultation"} images={"/Images/Services/Overall YouTube Channel Management.png"} />
 
             {/* <TrustPilotReview /> */}
+            {/* <Clients_review_item /> */}
+            <Client_Review />
+
 
         </div>
 

@@ -70,7 +70,6 @@ function youtubeseo() {
         <div className="grid grid-cols-1  md:grid-cols-12  justify-center items-center mx-auto max-w-full  w-full min-h-[400px]  ">
           <div className=" text-white md:col-start-4 md:col-span-5 flex flex-col items-center justify-center text-center md:text-left mt-8 xl:mt-1">
             <h1 className="text-[24px] md:text-[32px] lg:text-[36px] xl:text-[48px] font-bold xl:leading-[60px] font-Factor_A max-w-3xl ">
-              
               <span className="text-[#01b88d]">
                 YouTube Channel Optimization{" "}
               </span>
@@ -79,7 +78,7 @@ function youtubeseo() {
           </div>
           <div className="w-[100%] h-[150px] md:h-[200px] lg:h-[250px] relative md:col-start-9 md:col-span-2 mb-4">
             <Image
-              src="/Images/ServicesheroSVGs/youtube-channel-optimization.svg"
+              src="/Images/Services/YouTube Channel Optimization.png"
               fill
               alt="youtube-channel-optimization"
               className="object-contain"
@@ -93,32 +92,22 @@ function youtubeseo() {
               <SideBar liItem={liItem} sectionIds={sectionIds} />
             </div>
           </div>
-          <div className="w-full mx-auto bg-white min-h-screen md:col-start-4 md:col-span-7 p-2">
-            <div className="max-w-[1172px] mx-auto">
-              {/* <h1 className="font-Inter font-black text-xl sm:text-2xl md:text-3xl lg:text-4xl mt-12">
-                YouTube Channel Optimization Service to Enhance Organic Growth &
-                Visibility
-              </h1> */}
-            </div>
+          <div className="w-full mx-auto bg-white min-h-screen md:col-start-4 md:col-span-6 p-2 mb-28 md:mb-40">
             <div className="max-w-[1172px] mx-auto">
               <div className="flex flex-col justify-center items-start">
                 <div className="flex flex-col justify-center item-center gap-4 ">
-                  <h3 className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter">
-                    Are you looking to maximize the organic visibility and
-                    rankings of your YouTube channel? Look no further! At Dawood
-                    Proud, we offer expert YouTube Channel Optimization services
-                    that can help you unlock the full potential of your channel.
-                  </h3>
-
-                  {/* image comes here.. */}
-                  <div className="relative h-[350px] w-[95%] md:w-[100%] bg-blue mx-auto">
-                    <Image
-                      src="/Images/Services/Keyword Research.png"
-                      alt="YouTube Keyword Research"
-                      fill
-                      className="object-contain"
-                    />
+                  <div className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter space-y-4">
+                    <p>
+                      Are you looking to maximize the organic visibility and
+                      rankings of your YouTube channel? Look no further!
+                    </p>
+                    <p>
+                      At Dawood Proud, we offer expert YouTube Channel
+                      Optimization services that can help you unlock the full
+                      potential of your channel.
+                    </p>
                   </div>
+
                   <div className="flex flex-col justify-center items-start gap-12">
                     <h3 className="text-base md:text-xl lg:text-2xl font-Inter font-semibold p-1 -mb-8">
                       Why Choose Our YouTube Channel Optimization Service?
@@ -175,13 +164,19 @@ function youtubeseo() {
                   >
                     Customized Solutions
                   </h2>
-                  <p className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter list-disc px-2">
-                    We understand that every YouTube channel is unique, and we
-                    tailor our optimization service to meet your specific goals
-                    and requirements. Our team of experts will analyze your
-                    channel, identify areas for improvement, and implement
-                    strategies to enhance its performance.
-                  </p>
+
+                  <div className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter space-y-4">
+                    <p>
+                      We understand that every YouTube channel is unique, and we
+                      tailor our optimization service to meet your specific
+                      goals and requirements.
+                    </p>
+                    <p>
+                      Our team of experts will analyze your channel, identify
+                      areas for improvement, and implement strategies to enhance
+                      its performance.
+                    </p>
+                  </div>
 
                   <h2
                     id="comprehensive_approach"
@@ -189,36 +184,42 @@ function youtubeseo() {
                   >
                     Comprehensive Approach
                   </h2>
-                  <p className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter list-disc px-2">
-                    Our YouTube Channel Optimization service covers various
-                    aspects, including keyword research, metadata optimization,
-                    thumbnail optimization, content strategy, and audience
-                    engagement. We leave no stone unturned to ensure your
-                    channel&apos;s success.
-                  </p>
+
+                  <div className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter space-y-4">
+                    <p>
+                      Our YouTube Channel Optimization service covers various
+                      aspects, including keyword research, metadata
+                      optimization, thumbnail optimization, content strategy,
+                      and audience engagement.
+                    </p>
+                    <p>
+                      We leave no stone unturned to ensure your channel&apos;s
+                      success.
+                    </p>
+                  </div>
                   <h2
                     id="proven_results"
                     className="text-xl md:text-2xl font-bold font-Factor_A"
                   >
                     Proven Results
                   </h2>
-                  <p className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter list-disc px-2">
-                    We have a track record of delivering measurable results for
-                    our clients. Our optimization techniques have helped
-                    numerous channels achieve significant growth and improved
-                    visibility.
-                  </p>
-                  <br />
-                  <br />
-                  <p className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter list-disc px-2">
-                    Take your YouTube channel to new heights with our
-                    professional optimization service. Contact us today to
-                    discuss your requirements and start maximizing your organic
-                    visibility and channel rankings.
-                  </p>
-                  <br />
-                  <br />
-                  <p className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter list-disc px-2">
+
+                  <div className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-light leading-[32.4px]  mt-4 font-Inter space-y-4">
+                    <p>
+                      We have a track record of delivering measurable results
+                      for our clients. Our optimization techniques have helped
+                      numerous channels achieve significant growth and improved
+                      visibility.
+                    </p>
+
+                    <p>
+                      Take your YouTube channel to new heights with our
+                      professional optimization service. Contact us today to
+                      discuss your requirements and start maximizing your
+                      organic visibility and channel rankings.
+                    </p>
+                  </div>
+                  <p className="text-[16px] md:text-[20.4px] p-2 lg:p-1 font-normal leading-[32.4px]  mt-4 font-Inter space-y-4">
                     Remember, success on YouTube is within reach. Let Dawood
                     Proud&apos;s YouTube Channel Optimization Service help you
                     unlock its full potential.

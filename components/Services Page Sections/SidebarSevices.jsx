@@ -4,10 +4,10 @@ function SiderBar({ liItem, sectionIds }) {
 
 
   useEffect(() => {
-    
+
     window.addEventListener('scroll', handleScroll);
 
-   
+
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
@@ -30,20 +30,21 @@ function SiderBar({ liItem, sectionIds }) {
   }
 
   return (
-    <div className="max-w-xl mx-auto text-blue font-Inter border-r-2 border-[gray]/60 ">
-      <aside className="w-full" aria-label="Sidebar">
-        <div className="px-3 py-4 overflow-y-auto  mt-8 text-left">
-          <h2 className="p-2 text-lg font-bold ">Content</h2>
-          <ul className="space-y-2 py-4 ">
-            {liItem.map((item, index) => (
-              <li key={index} className="w-full">
-                <a href={`#${item.id}`} className="p-1 font-normal text-[14px]">
-                  <span className="hover:text-[#0070f3] ">{item.name}</span>
-                </a>
-              </li>
-            ))}
-          </ul>
-
+    <div className="max-w-xl mx-auto text-blue font-IBM_plex border-r-2 border-[gray]/30 ">
+      <aside className="w-full " aria-label="Sidebar">
+        <div className="px-0 py-4 overflow-y-auto  mt-8 text-left grid grid-cols-12">
+          <div className='col-start-4 col-span-8'>
+            <h2 className="text-lg  font-normal self-start">Content</h2>
+            <ul className="space-y-2 py-4 ">
+              {liItem.map((item, index) => (
+                <li key={index} className="w-full flex">
+                  <a href={`#${item.id}`} className="font-normal text-[18px]">
+                    <span className="hover:text-[#0070f3] ">{item.name}</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
       </aside>
     </div>

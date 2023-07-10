@@ -9,7 +9,7 @@ import Link from 'next/link'
 const SliderItem = ({ url, name, subs, views, para, link, navtoportfolio }) => {
     return (
         <div className='w-full'>
-            <div className='flex flex-col justify-center items-center  mx-auto font-Inter text-white rounded-2xl p-[12px] sm:p-2 md:p-3 max-w-[355px] min-h-[498px] bg_testimonials'>
+            <div className='flex flex-col justify-center items-center  mx-auto font-Inter text-white rounded-2xl p-[12px] sm:p-2 md:p-3  min-h-[498px] bg_testimonials'>
                 {/* bg_testimonials */}
                 {/* first group of three items */}
                 <div className='flex flex-col items-center space-y-3'>
@@ -47,7 +47,7 @@ const SliderItem = ({ url, name, subs, views, para, link, navtoportfolio }) => {
 
                 {/* Group thrid itmes */}
                 <div className='flex flex-col flex-1 justify-between items-center h-full overflow-y-auto font-bold text-testimonial-card-quote-sm md:text-testimonial-card-quote-md lg:text-testimonial-card-quote-lg mt-6  '>
-                    <div className='font-bold leading-6 text-xl overflow-auto justify-center items-center font-Halvic '> {para}</div>
+                    <div className='font-bold  text-xl overflow-auto justify-center items-center px-1 '> {para}</div>
                     <div className='flex flex-col justify-center items-center '>
                         <Link href={navtoportfolio}>
                             <button className=' flex justify-center items-center mx-auto px-2 md:px-4 py-[6px] gap-1 rounded-2xl  drop-shadow-lg  bg-[#001b47] hover:bg-[#032d70] duration-200 ' >

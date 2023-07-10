@@ -13,13 +13,12 @@ function Hero() {
 
         <div className="w-full min-h-screen flex flex-col items-center justify-center font-Inter mx-auto bg-[#001b47]">
             <div className="w-full bg-white ">
-                <Navbar bg_color={"white"} position={"sticky"} />
+                <Navbar bg_color={"bg-white"} position={"absolute"} />
             </div>
             {/* bg-gradient-to-b from-[#121521] to-[#121521]/0        */}
 
             {/* hero section text and images div */}
-            <div className="grid grid-cols-1  xl:grid-cols-12  justify-center items-center mx-auto max-w-[1200px] min-h-[80vh] w-full">
-
+            <div className="grid grid-cols-1  xl:grid-cols-12  justify-center items-center mx-auto max-w-[1220px] min-h-[70vh] w-full mt-0">
                 <div className="h-full w-full  text-white text-center flex flex-col  items-center justify-center  xl:col-start-1 xl:col-span-5">
                     {/* hero section text */}
                     <div className=" flex flex-col justify-center items-center xl:justify-start xl:items-start mx-auto  p-0 sm:p-4 md:p-6 gap-4">
@@ -79,34 +78,34 @@ function Hero() {
             </div>
 
             {/* last section of the herosection */}
-            <div className="grid grid-cols-1 xl:grid-cols-[1.5fr_1fr] justify-center items-center bg-blue/5 w-full h-full mb-8 xl:mb-12 max-w-full">
-                <div className="relative h-[280px] w-[90%] md:w-[700px] lg:w-[800px] mx-auto ">
+            <div className="grid grid-cols-1 xl:grid-cols-[1fr_1fr] justify-center items-center bg-blue/5 w-full h-full mb-8 xl:mb-12 max-w-[1200px]">
+                <div className="relative h-[300px] w-[90%] md:w-[100%] lg:w-[100%] xl:w-[110%] mx-auto ">
                     <Image src="/Images/herosection/Landing Page Image 01.png" fill alt="heroImage" className="object-contain" />
                 </div>
                 <div className="grid grid-cols-1 justify-center items-center space-y-2 my-4">
                     <div className="flex flex-col justify-start items-center">
-                        <p className="text-white font-bold font-Inter tracking-widest text-[18px] sm:text-[22px]">
+                        <p className="text-white font-bold font-Inter tracking-widest text-[18px] sm:text-[20px]">
                             PUSH YOUR CHANNEL TO THE
                         </p>
-                        <div className="relative h-[100px] w-[280px] xl:-ml-24">
+                        <div className="relative h-[100px] w-[250px] xl:-ml-24">
                             <Image src="/Images/herosection/heroImage2.svg" fill alt="heroImage2" className="object-contain" />
                         </div>
                     </div>
                     <div className="flex justify-center items-center max-w-sm mx-auto">
-                        <p className="text-left font-Inter  xl:text-[20px] text-white">
+                        <p className="text-left font-Inter  xl:text-[18px] text-white">
                             Discover how to <span className="hero_bg ">grow your YouTube <br /> channel</span>  with our professional coaches.
                         </p>
                     </div>
                     <div className="flex flex-col xs:flex-row justify-center items-center gap-4 xs:gap-8">
                         <div>
-                            <Link href={"/consultation"} className="text-xs xl:text-sm">
+                            <Link href={"/consultation"} className="text-xs xl:text-xm">
                                 <button className='border border-solid border-[#f0f0f0] px-4 py-2 ml-2 rounded-2xl  font-bold text-white  bg-blue/40  hover:bg-white hover:text-blue'>
                                     Get Free Consultation
                                 </button>
                             </Link>
                         </div>
                         <div>
-                            <Link href={"/services"} className="text-xs xl:text-sm ">
+                            <Link href={"/services"} className="text-xs xl:text-xm ">
                                 <button className=' px-4 py-2 ml-2 rounded-2xl  font-bold text-white  bg-blue/40  hover:bg-white hover:text-blue'>
                                     <div className="flex justify-center items-center gap-2">
                                         <p>See all Services</p>
