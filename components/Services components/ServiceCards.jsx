@@ -44,8 +44,20 @@ function ServiceCards() {
                 btntext={"Get started today"} bgColor={""} link={"/consultation"} images={"/Images/Services/YouTube Automation.svg"} />
 
             {/* <div className="bg-cover bg-center bg-[url('/Images/blob_bg_2.png')]"> */}
+            <ServiceCard heading={"YouTube Niches "}
+                heading2={"Get YouTube Niches with Low Competition for Your Target Audience"}
+                para={`Uncover profitable YouTube Automation Niches with low competition and Niches for YouTube Shorts that perfectly align with your target audience.`}
+                btntext={"Get started today"} bgColor={""} link={"/services/youtube-niche-with-low-competition"} images={"/Images/Services/YouTube Niches with Low Competition.svg"} />
 
-            <ServiceCard heading={"YouTube Monetization"}
+            {/* channle optimization */}
+
+
+            <ServiceCard heading={"YouTube Channel Optimization"}
+                heading2={"YouTube Channel Optimization Service to Enhance Organic Growth & Visibility"}
+                para={`Boost your YouTube channel${"'"}s organic visibility and rankings with our expert YouTube Optimization Service. Unlock the power of organic reach & Engagement on the Channel.`}
+                btntext={"Skyrocket Your Profits Today"} bgColor={""} link={"/services/youtube-channel-optimization"} images={"/Images/Services/YouTube Channel Optimization.png"} />
+
+            {/* <ServiceCard heading={"YouTube Monetization"}
                 heading2={"Get your Channel Monetized with Organic Monetization Strategies"}
                 para={`Monetize your YouTube channel sustainably with a winning Monetization Strategies. Boost your earnings and maximize your content${"'"}s value without harmful promotions that can hurt your channel${"'"}s organic growth.`}
                 btntext={"Skyrocket Your Profits Today"} bgColor={""} link={"/consultation"} images={"/Images/Services/YouTube Monetization.png"} />
@@ -59,7 +71,7 @@ function ServiceCards() {
             <ServiceCard heading={"Overall YouTube Channel Management"}
                 heading2={"Level Up Your YouTube Game with Expert Growth Management"}
                 para={`Our expert strategies and optimization techniques are the secret sauce to skyrocketing your subscribers and engagement. Let${"'"}s unleash your channel${"'"}s full potential and dominate the online space!`}
-                btntext={"Let us Help you Grow"} bgColor={""} link={"/consultation"} images={"/Images/Services/Overall YouTube Channel Management.png"} />
+                btntext={"Let us Help you Grow"} bgColor={""} link={"/consultation"} images={"/Images/Services/Overall YouTube Channel Management.png"} /> */}
 
             {/* <TrustPilotReview /> */}
             {/* <Clients_review_item /> */}
