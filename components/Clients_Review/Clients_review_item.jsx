@@ -11,15 +11,15 @@ function Client_Review({ name, img, role, review }) {
                     </div>
                     <div className='flex flex-col justify-center items-start gap-0'>
                         <h3 className="text-xl font-bold mb-2 ">{name}</h3>
-                        <p className='italic font-normal text-[12.8px]'>
+                        <div className='italic font-normal text-[12.8px]'>
                             {role}
-                        </p>
+                        </div>
                     </div>
 
                 </div>
                 <div className="triangle ml-16"></div>
                 <div className="min-h-[220px] bg-white/40 p-4  overflow-y-auto custom-scroll">
-                    <p className="text-lg text-left">{review}</p>
+                    <div className="text-lg text-left">{review}</div>
                 </div>
             </div>
 

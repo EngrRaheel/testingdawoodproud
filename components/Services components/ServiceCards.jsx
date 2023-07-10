@@ -20,7 +20,7 @@ function ServiceCards() {
             <ServiceCard heading={"YouTube SEO"}
                 heading2={"Supercharge Your Videos with YouTube SEO Services"}
                 para={`Get Your Videos Ranked on YouTube Search Results to drive consistent traffic and engaged subscribers. Optimize your videos with winning strategies to dominate the world${"'"}s second-largest search engine.`}
-                btntext={"Dominate YouTube Search Now"} bgColor={""} link={"/services/youtube-seo"} images={"/Images/Services/YouTube_SEO_service.png"} />
+                btntext={"Dominate YouTube Search Now"} bgColor={""} link={"/services/youtube-seo"} images={"/Images/Services/YouTube_SEO Service.png"} />
 
 
             {/* rating of the gogle clietns review section */}

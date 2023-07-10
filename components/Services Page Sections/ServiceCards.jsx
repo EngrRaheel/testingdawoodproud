@@ -47,7 +47,7 @@ function ServiceCards() {
     //     )
     // }
     return (
-        <div className="flex flex-col  md:space-y-14 ">
+        <div className="flex flex-col  md:space-y-8 ">
             <YtSlider />
             <ServiceCard heading={"Certified YouTube Consultant"}
                 heading2={`Unlock Your YouTube  Potential with a Certified YouTube Strategist`}
@@ -57,7 +57,7 @@ function ServiceCards() {
             <ServiceCard heading={"YouTube SEO"}
                 heading2={"Supercharge Your Videos with YouTube SEO Services"}
                 para={`Get Your Videos Ranked on YouTube Search Results to drive consistent traffic and engaged subscribers. Optimize your videos with winning strategies to dominate the world${"'"}s second-largest search engine.`}
-                btntext={"Dominate YouTube Search Now"} bgColor={""} link={"/services/youtube-seo"} images={"/Images/Services/YouTube_SEO_service.png"} />
+                btntext={"Dominate YouTube Search Now"} bgColor={""} link={"/services/youtube-seo"} images={"/Images/Services/YouTube_SEO Service.png"} />
 
             <ServiceCard heading={"YouTube Content Creation"}
                 heading2={"YouTube Video Creation Services to Maximize Your YouTube Success"}
