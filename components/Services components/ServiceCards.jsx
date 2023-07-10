@@ -15,7 +15,7 @@ function ServiceCards() {
             <ServiceCard heading={"Certified YouTube Consultant"}
                 heading2={`Unlock Your YouTube  Potential with a Certified YouTube Strategist`}
                 para={`Get a comprehensive channel evaluation and Tailored Content Strategy that help you unlock the secrets to YouTube Channel Growth , connect with your audience, and build your brand on this exciting platform. Ready to take your channel to new heights? `}
-                btntext={`Let${"'"}s get started`} link={"/services/youtube-consultation"} images={"/Images/Services/Certified YouTube Consultant.png"} />
+                btntext={`Let${"'"}s get started`} link={"/services/youtube-consultation"} images={"/Images/Services/YouTube Consultation.svg"} />
 
             <ServiceCard heading={"YouTube SEO"}
                 heading2={"Supercharge Your Videos with YouTube SEO Services"}
