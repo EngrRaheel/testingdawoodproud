@@ -26,8 +26,8 @@ function Hero() {
                             <h1 className=" font-extrabold text-[32px] sm:text-[36px] md:text-[50px] lg:text-[60px] ">Dawood Proud</h1>
                             <h1 className=" font-extrabold text-[28px] sm:text-[28px] md:text-[32px] lg:text-[40px] text-[#01b88d]"> Stand Out from Crowd</h1>
                         </div>
-                        <div className="text-center xl:text-left font-medium md:font-semibold px-3 sm:px-0 lg:font-medium sm:text-[16px] md:text-[16px] lg:text-[16px] text-[white]/70">
-                            <p> Ultimate Destination for all <strong> YouTube Growth Services</strong> <br />to take your channel to new heights.</p>
+                        <div className="text-center xl:text-left font-medium md:font-semibold px-4 sm:px-0 lg:font-medium sm:text-[16px] md:text-[16px] lg:text-[16px] text-[white]/80 ">
+                            <p> Ultimate Destination for all <strong> YouTube Growth Services</strong> to take your channel to new heights.</p>
                             {/* <p>All the successful YouTubers have one thing in common  <strong> {"\"They have Winnig Content Strategy.\""}</strong>  </p> */}
                         </div>
                         <div>

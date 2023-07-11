@@ -5,7 +5,7 @@ import SignIn from "../../../components/AdminDashBoad/Sign";
 
 function blog() {
   return (
-    <div className="w-full  flex  flex-col items-center justify-center bg-cover bg-center  bg-[url('/Images/Blogs/glow-bg.svg')]">
+    <div className="w-full  flex  flex-col items-center justify-center bg-[#001b47]/90">
       <div className="bg-white w-full">
         <Navbar bg_color={"bg-white"} position={"fixed"} />
       </div>

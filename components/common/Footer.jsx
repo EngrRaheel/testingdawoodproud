@@ -102,8 +102,9 @@ function Footer() {
 
 
                 </div>
-                <hr className='w-full max-w-7xl text-[gray] h-full' />
-                <div className="grid grid-col-1 xl:grid-cols-12 justify-center items-center w-full mt-4 mx-4 max-w-7xl mb-8">
+                {/* <hr className='w-full max-w-7xl text-[gray] h-full' /> */}
+                <div className='bg-[#071324] w-full'>
+                    <div className="grid grid-col-1 xl:grid-cols-12 justify-center items-center  mt-4  max-w-7xl mb-8 mx-auto ">
                     <div className='xl:col-span-7 font-Inter text-[14px] text-center xl:text-left'>
                         <p>
                             <strong>Dawood Proud®</strong> 2019-2023 | Celelberating 4+ Years of YouTube Marketing Excellence
@@ -125,7 +126,9 @@ function Footer() {
                             <Image src={"/Images/Google ads partner.png"} fill alt="logo" className='object-contain' />
                         </div>
                     </div>
+                </div> 
                 </div>
+               
             </div>
         </div>
 
