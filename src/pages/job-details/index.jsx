@@ -70,7 +70,7 @@ const sectionIds = [
 function JobDetails() {
     return (
         <div className='w-full min-h-screen font-Inter text-white bg-white h-full'>
-            <div className="w-full bg-white">
+            <div className="w-full bg-white text-[black]">
                 <Navbar bg_color={"white"} />
             </div>
 

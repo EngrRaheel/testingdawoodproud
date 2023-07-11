@@ -153,7 +153,7 @@ function careers() {
 
     return (
         <div className='w-full  font-Inter text-white bg-white min-h-screen h-full'>
-            <div className="w-full bg-white">
+            <div className="w-full bg-white text-[black]">
                 <Navbar bg_color={"white"} />
             </div>
 

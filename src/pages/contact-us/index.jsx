@@ -7,7 +7,7 @@ function ContactUs() {
     return (
         <>
             <div className="w-full flex flex-col justify-center items-center h-full bg-cover bg-center  bg-[url('/Images/ContactUs/contactus.jpg')]">
-                <div className="w-full bg-white ">
+                <div className="w-full bg-white text-[black]">
                     <Navbar bg_color={"white"} position={"sticky"} />
                 </div>
 

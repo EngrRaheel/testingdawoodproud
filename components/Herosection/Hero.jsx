@@ -78,11 +78,11 @@ function Hero() {
             </div>
 
             {/* last section of the herosection */}
-            <div className="grid grid-cols-1 xl:grid-cols-[1fr_1fr] justify-center items-center bg-blue/5 w-full h-full mb-8 xl:mb-12 max-w-[1200px]">
-                <div className="relative h-[300px] w-[90%] md:w-[100%] lg:w-[100%] xl:w-[110%] mx-auto ">
+            <div className="grid grid-cols-1 xl:grid-cols-12 justify-center items-center bg-blue/5 w-full h-full mb-8 xl:mb-12 max-w-[1200px]">
+                <div className="relative h-[280px] w-[90%] md:w-[100%] lg:w-[100%] xl:w-[110%] mx-auto xl:col-start-1 xl:col-span-5">
                     <Image src="/Images/herosection/Landing Page Image 01.png" fill alt="heroImage" className="object-contain" />
                 </div>
-                <div className="grid grid-cols-1 justify-center items-center space-y-2 my-4">
+                <div className="grid grid-cols-1 justify-center items-center space-y-2 my-4 xl:col-start-8 xl:col-span-7">
                     <div className="flex flex-col justify-start items-center">
                         <p className="text-white font-bold font-Inter tracking-widest text-[18px] sm:text-[20px]">
                             PUSH YOUR CHANNEL TO THE
