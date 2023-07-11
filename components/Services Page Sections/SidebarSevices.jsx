@@ -30,7 +30,7 @@ function SiderBar({ liItem, sectionIds }) {
   }
 
   return (
-    <div className="max-w-xl mx-auto text-[black] font-IBM_plex border-r-2 border-[gray]/30 ">
+    <div className="max-w-xl mx-auto text-[black] font-Inter border-r-2 border-[gray]/30 ">
       <aside className="w-full " aria-label="Sidebar">
         <div className="px-0 py-4 overflow-y-auto  mt-8 text-left grid grid-cols-12">
           <div className='col-start-4 col-span-8'>
