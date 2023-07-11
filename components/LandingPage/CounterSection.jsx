@@ -9,8 +9,8 @@ import { FaYoutube } from "react-icons/fa"
 function CunterSection() {
     return (
         <div className='w-full grid grid-cols-1 lg:grid-cols-2 font-Inter max-w-[1100px] mx-auto min-h-screen justify-center items-start gap-12'>
-            <div className='flex flex-col justify-center items-center md:justify-start md:items-start space-y-5 px-0 mx-auto'>
-                <h2 className='text-[28px] md:text-[40px] font-extrabold text-center md:text-left'>
+            <div className='flex flex-col justify-center items-center md:justify-start md:items-start space-y-4 px-0 mx-auto'>
+                <h2 className='text-[28px] md:text-[40px] font-extrabold text-center md:text-left leading-[42px]'>
                     Our YouTube strategies just flat-out work
                 </h2>
                 <p className='text-[18px] md:text-[24px] font-light text-[#554b4d] max-w-[80%]'>
@@ -28,7 +28,7 @@ function CunterSection() {
                     <div className='flex justify-center items-center gap-4'>
                         <FaUsers size={60} color="#001b47" />
                         <CountUp
-                            start={50}
+                            start={0}
                             end={4000}
                             duration={4}
                             useEasing={true}
@@ -44,13 +44,13 @@ function CunterSection() {
                     <div className='flex justify-center items-center gap-4'>
                         <FaEye size={60} color="#001b47" />
                         <CountUp
-                            start={50}
+                            start={0}
                             end={18}
-                            duration={2.5}
+                            duration={4}
                             useEasing={true}
                             separator=","
                             prefix=''
-                            suffix="Billion"
+                            suffix="+Billion"
                             className='text-[50px] font-light text-[#001b47]'
                         />
                     </div>
@@ -58,15 +58,15 @@ function CunterSection() {
                 </div>
                 <div className='flex flex-col justify-center items-center p-4 border border-Solid-2 border-[gray] w-[90%] '>
                     <div className='flex justify-center items-center gap-4'>
-                        <FaYoutube size={60} color="red" />
+                        <FaYoutube size={60} color="#001b47" />
                         <CountUp
                             start={50}
                             end={81}
-                            duration={2.5}
+                            duration={4}
                             useEasing={true}
                             separator=","
                             prefix=''
-                            suffix="Million"
+                            suffix="+Million"
                             className='text-[50px] font-light text-[#001b47]'
                         />
                     </div>

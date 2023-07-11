@@ -16,9 +16,6 @@ function ServiceCard({ heading, heading2, para, btntext, bgColor, link, images }
             <div className="w-full ">
                 <div className="w-full max-w-[1200px]  flex flex-col items-center justify-center  mx-auto gap-3 md:gap-16 mt-12">
 
-                    {/* <h2 className=' max-w-auto md:max-w-[580px] font-extrabold text-[28px] md:text-[38px] lg:text-[38px] text-center '>{heading}</h2> */}
-
-
                     <div className='flex flex-col md:flex-row justify-center md:justify-center md:items-center max-w-[1200px]'>
                         <div className='flex-1 mb-6 md:mb-0 p-2 sm:p-6 md:p-0'>
                             <Fade delay={100} duration={1000} triggerOnce={true} cascade={true} direction="left"  >

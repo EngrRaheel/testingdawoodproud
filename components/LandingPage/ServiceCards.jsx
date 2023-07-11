@@ -15,15 +15,14 @@ import CounterSection from "./CounterSection"
 
 function ServiceCards() {
     return (
-        <div className="flex flex-col  p-2 gap-8">
-
-            <h2 className='max-w-auto md:max-w-[580px] font-extrabold text-[28px] md:text-[38px] lg:text-[56px] text-center mx-auto font-Inter'>
+        <div className="flex flex-col gap-8">
+            <h2 className='max-w-auto md:max-w-[580px] font-extrabold text-[28px] md:text-[38px] lg:text-[56px] text-center mx-auto font-Inter mb-16'>
                 Our 4 Step Process
             </h2>
             <ServiceCard2 icon={<FiTarget color='white' size={30} />} text={"Your Goals"} bg={"bg-[#001b47]"}
                 heading2={`It starts with you.`}
                 para={`Our process always starts with clearly understanding what you want to accomplish with YouTube, whether that’s more views, more subscribers, increase revenue, or something else.`}
-                btntext={`Let${"'"}s get started`} link={"/services/youtube-consultation"} images={"/Images/Services/Starts with You.svg"} />
+                btntext={`Let${"'"}s get started`} link={"/services/youtube-consultation"} images={"/Images/Services/YouTube_Results.svg"} />
 
 
             <ServiceCard3 icon={<FaAngleDoubleRight color='white' size={30} />} text={"Your Growth"} bg={"bg-[#f8cc23]"}
