@@ -1,6 +1,6 @@
 
 import Hero from "../../components/Herosection/Hero";
-import ServiceCards from "../../components/Services components/ServiceCards"
+import ServiceCards from "../../components/LandingPage/ServiceCards"
 
 import SuperchargeYT from "../../components/ConsultationForm/CallToAction";
 import YtSlider from "../../components/YtSlider/Slider";
