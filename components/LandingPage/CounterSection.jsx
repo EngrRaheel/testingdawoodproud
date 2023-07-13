@@ -9,7 +9,7 @@ import { FaYoutube } from "react-icons/fa"
 function CunterSection() {
     return (
         <div className='w-full grid grid-cols-1 lg:grid-cols-2 font-Inter max-w-[1100px] mx-auto min-h-screen justify-center items-start gap-12'>
-            <div className='flex flex-col justify-center items-center md:justify-start md:items-start space-y-4 px-0 mx-auto'>
+            <div className='flex flex-col justify-center items-center md:justify-start md:items-start space-y-4 sm:px-0 mx-auto px-1 '>
                 <h2 className='text-[28px] md:text-[40px] font-extrabold text-center md:text-left leading-[42px]'>
                     Our YouTube strategies just flat-out work
                 </h2>

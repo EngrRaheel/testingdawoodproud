@@ -9,11 +9,11 @@ import Image from "next/image";
 function ServiceCard2({ heading, heading2, para, btntext, bgColor, link, images, icon, bg, text }) {
     return (
         <div className={`w-full min-h-[100vh] font-Inter text-[black] relative ${bgColor}`}>
-            <div className='flex flex-col md:flex-row justify-center md:justify-center md:items-center max-w-[1200px] mx-auto' >
+            <div className='flex flex-col md:flex-row justify-center md:justify-center md:items-center max-w-[1172px] mx-auto' >
                 <div className='flex-1'>
                     <Fade delay={100} duration={1000} triggerOnce={true} cascade={true} direction="left"  >
-                        <div className='w-full h-[300px] md:h-[350px] relative  '>
-                            <Image src={images} alt="" fill className='object-contain '  />
+                        <div className='w-full h-[300px] md:h-[350px] relative'>
+                            <Image src={images} alt="" fill className='object-contain ' />
                         </div>
                     </Fade>
                 </div>

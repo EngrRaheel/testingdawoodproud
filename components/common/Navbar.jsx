@@ -25,7 +25,7 @@ const navItems = [
   },
   {
     id: 2,
-    Name: "Services",
+    Name: "All Services",
     Route: "/services",
     hasDropdown: true,
     selected: true,
@@ -119,28 +119,28 @@ function Navbar({ bg_color, position }) {
   };
 
   return (
-    <div className={`w-full min-h-[3rem]  font-Factor_A font-bold ${position} top-0 z-10 ${bg_color} `}>
-      <div className="mx-w-[1172px] mx-auto min-h-full flex items-center text-[balck] justify-between lg:justify-around  ">
+    <div className={`w-full min-h-[3rem]  font-Factor_A font-medium ${position} top-0 z-10 ${bg_color}`}>
+      <div className="mx-w-[1200px] mx-auto min-h-full flex items-center text-[balck] justify-between lg:justify-around  ">
         {/* Logo here... */}
         <div className="relative w-12 h-14 ">
           <Link href={'/'} alt='home'> <Image src={"/Images/logo.png"} alt="" fill className="object-contain" /></Link>
         </div>
 
         {/* nav items here......... */}
-        <div className="lg:flex  hidden justify-center items-center text-[14px] gap-6 relative z-50 mt-2">
+        <div className="lg:flex  hidden justify-center items-center text-[16px] gap-6 relative z-50 mt-2">
           {navItems.map((item, index) => (
             <Link href={item.Route} key={index}>
               <div className="relative  main list-none flex justify-center items-start">
                 <div key={index} className="cursor-pointer">{item.Name}</div>
-                {(index === 1) && <IoMdArrowDropdown size={20} className="block" />}
-                {item.hasDropdown && (
+                {/* {(index === 1) && <IoMdArrowDropdown size={20} className="block" />} */}
+                {/* {item.hasDropdown && (
 
                   <div className="hidden absolute top-[24px] left-[0px] w-[233px] shadow-2xl rounded-md border-1 border-white/10 border-solid span_dropdown bg-gray-gradient item ">
                     {item.dropdownItems.map((service, index) => (
                       <Link href={`${service.path}`} className="list-none px-3  py-1 text-[14px] leading-5 inline-block text-white/90 font-normal glow_text  " key={index}>{service.name}</Link>
                     ))}
                   </div>
-                )}
+                )} */}
               </div>
             </Link>
           ))}

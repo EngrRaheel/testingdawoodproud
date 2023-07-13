@@ -107,19 +107,19 @@ function Footer() {
                     <div className="grid grid-col-1 xl:grid-cols-12 justify-center items-center  mt-4  max-w-7xl mb-8 mx-auto ">
                     <div className='xl:col-span-7 font-Inter text-[14px] text-center xl:text-left'>
                         <p>
-                            <strong>Dawood Proud®</strong> 2019-2023 | Celelberating 4+ Years of YouTube Marketing Excellence
+                            Dawood Proud® 2018-2023 |  Celebrating 5+ Years of YouTube Marketing Excellence
                         </p>
                         <p>
-                            Call Toll Free: +92 327 007 5555 Privacy & Terms of Use Sitemap
+                             Privacy & Terms of Use 
                         </p>
-
+                        {/* Call Toll Free: +92 327 007 5555 */}
                     </div>
-                    <div className='xl:col-start-8  xl:col-span-5 flex justify-center gap-4 items-center'>
+                    <div className='xl:col-start-8  xl:col-span-5 flex justify-center gap-4 items-center max-w-md'>
 
-                        <div className='w-[20%] h-16 relative'>
-                            <Image src={"/Images/googlepremierbadge2023.jpg"} fill alt="logo" className='object-contain' />
+                        <div className='w-[18%] h-12 relative '>
+                            <Image src={"/Images/googlpartner.svg"} fill alt="logo" className='object-contain' />
                         </div>
-                        <div className='w-[20%] h-16 relative'>
+                        <div className='w-[16%] h-12 relative'>
                             <Image src={"/Images/Microsoft-Elite-Channel-Partner-2022.png"} fill alt="logo" className='object-contain' />
                         </div>
                         <div className='w-[20%] h-16 relative'>

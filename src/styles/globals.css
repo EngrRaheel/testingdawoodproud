@@ -10,6 +10,17 @@
   font-family: Factor A;
   src: url(../fonts/TRIALFactorA-Bold-BF6476bc2fe0b09.otf);
 }
+
+@font-face {
+  font-family: Times New Roman;
+  src: url(../fonts/times\ new\ roman.ttf);
+}
+
+/* @font-face {
+  font-family: Times New Roman;
+  src: url(../fonts/times\ new\ roman\ bold.ttf);
+} */
+
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800;900&display=swap");
 /* @import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200;300;400;500;600;700;800&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"); */
 /* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
@@ -488,7 +499,6 @@ background: radial-gradient(to top, #1A2948, #030713); */
   padding-left: 4px;
   /* display: block;   */
   background: #9e93934d;
- 
 }
 
 /* Track */
@@ -1006,10 +1016,8 @@ button[type="remove"]:hover {
 }
 
 .triangle {
-  
-    width: 0;
-    height: 0;
-    border-top: 30px solid white;
-    border-right: 30px solid transparent;
-  
+  width: 0;
+  height: 0;
+  border-top: 30px solid white;
+  border-right: 30px solid transparent;
 }

@@ -27,6 +27,7 @@ module.exports = {
       Barlow: ["Barlow", "sans-serif"],
       Factor_A: ["Factor A", "sans-serif"],
       Halvic: ["HelveticaNeueRoman", "sans-serif"],
+      Times_New_Roman: ['Times New Roman', ' san-serif'],
       // InterThin: ["InterThin", "sans-serif"],
       // OpenSans: ["Open Sans", "sans-serif"],
       // Inter_2: ["Inter Tight", "sans-serif"],

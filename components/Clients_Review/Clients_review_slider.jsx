@@ -16,9 +16,11 @@ import { Navigation, Autoplay, Pagination } from "swiper";
 const clients = [
 
     {
-        "img": "/Images/ReviewSliderImg/IaPAvm-unfBV0OiBe7H1iovfZ6PQ7tMBTfepE=s32-c-mo.png",
-        "name": "Aleena Rais",
+        "img": "/Images/ReviewSliderImg/Jim Louderback.webp",
+        "name": "Jim Louderback",
         "role": "Youtube Creater",
+        'subs': "355.44K",
+        "views": "87.61M",
         "review": (
             <p> &quot;If you&#39;re looking for fresh and exciting YouTube content ideas,
                 I highly recommend checking out this service.As a YouTuber with 3 millions+
@@ -31,9 +33,11 @@ const clients = [
         )
     },
     {
-        "img": "/Images/ReviewSliderImg/IaPAvm-unfBV0OiBe7HCiovfZ6PQ7tMBTfepE=s32-c-mo.png",
-        "name": "Cathy Yoder ",
+        "img": "/Images/ReviewSliderImg/Tim Schmoyer.webp",
+        "name": "Tim Schmoyer",
         "role": "Youtube Creater",
+        'subs': "492.55K",
+        "views": "33.79M",
         "review": (
             <p> Growing a YouTube channel can be a real challenge, and sometimes you just need a little help to get you on the right track.
                 That&#39;s where Dawood comes in. He provided me with a comprehensive YouTube content strategy that really helped me to grow my
@@ -43,9 +47,11 @@ const clients = [
         )
     },
     {
-        "img": "/Images/ReviewSliderImg/IaPAvm-unfBV0OiBe7H3iovfZ6PQ7tMBTfepE=s32-c-mo.png",
-        "name": "Kallie Branciforte ",
+        "img": "/Images/ReviewSliderImg/Chad Wild Clay.webp",
+        "name": "Chad Wild Clay ",
         "role": "Youtube Creater",
+        'subs': "9.08M",
+        "views": "2.21B",
         "review": (
             <p> I&#39;ve been working with Dawood Proud Agency for a few months now, and I can honestly say that they have helped me grow my channel in ways I never thought possible.
                 Their team really knows their stuff when it comes to optimizing videos for search results, and they were able to get my videos ranking higher than ever before.
@@ -55,9 +61,11 @@ const clients = [
         )
     },
     {
-        "img": "/Images/ReviewSliderImg/IaPAvm-unfBV0OiBe7H1iovfZ6PQ7tMBTfepE=s32-c-mo.png",
-        "name": "미스터 프로세스",
+        "img": "/Images/ReviewSliderImg/Andru Edwards.webp",
+        "name": "Andru Edwards",
         "role": "Youtube Creater",
+        'subs': "192.79K",
+        "views": "54.83M",
         "review": (
             <p> As a YouTuber, finding the right niche can be a daunting task, but Dawood and his team made it incredibly easy for me. Their YouTube
                 Niche Selection Services helped me find a low competition and high volume niche that was perfect for my channel. Not only did they
@@ -67,9 +75,11 @@ const clients = [
         )
     },
     {
-        "img": "/Images/ReviewSliderImg/IaPAvm-unfBV0OiBe7HSiovfZ6PQ7tMBTfepE=s32-c-mo.png",
-        "name": "Samina J",
+        "img": "/Images/ReviewSliderImg/Mark Cuban.png",
+        "name": "Mark Cuban",
         "role": "Youtube Creater",
+        'subs': "49.53K",
+        "views": "26.77M",
         "review": (
             <p> Hey guys, it&#39;s your favorite foodie YouTuber and today I wanted to share feedback with you all how Dawood Proud Agency has helped me take
                 my channel to the next level! Not only did they guide me on how to create delicious Pakistani and Indian cuisine videos, but they also encouraged
@@ -80,9 +90,11 @@ const clients = [
         )
     },
     {
-        "img": "/Images/ReviewSliderImg/IaPAvm-unfBV0OiBe7HLiovfZ6PQ7tMBTfepE=s32-c-mo.png",
-        "name": "Lanxofour ",
+        "img": "/Images/ReviewSliderImg/Evan Carmichael.webp",
+        "name": "Evan Carmichael",
         "role": "Youtube Creater",
+        'subs': "2.01M ",
+        "views": "292.88M",
         "review": (
             <p> As a gaming enthusiast, I was really interested in creating Minecraft related content and tutorials, but I had no idea where to start. That&#39;s when I stumbled
                 upon DP Agency, and they provided me with invaluable guidance and support every step of the way. Their expertise in the gaming industry and understanding of
@@ -142,7 +154,7 @@ export default function App() {
                 className="mySwiper"
             >
                 {clients.map((item, index) =>
-                    <SwiperSlide key={index}> <SliderItem name={item.name} img={item.img} role={item.role} review={item.review} /></SwiperSlide>
+                    <SwiperSlide key={index}> <SliderItem name={item.name} img={item.img} role={item.role} review={item.review} subs={item.subs} views={item.views} /></SwiperSlide>
                 )}
 
 
